@@ -1,0 +1,533 @@
+{
+  "aspect_precision": 0.6244661378889567,
+  "aspect_recall": 0.8462174452252997,
+  "aspect_f1": 0.7186238371072495,
+  "polarity_precision": 0.5231848688224527,
+  "polarity_recall": 0.7089706490285241,
+  "polarity_f1": 0.6020712655783746,
+  "macro_f1": 0.5667300346278377,
+  "label_accuracy": 0.6775,
+  "exact_row_match": 0.03,
+  "aspect_detection": {
+    "precision": 0.6244661378889567,
+    "recall": 0.8462174452252997,
+    "f1": 0.7186238371072495,
+    "tp": 2047,
+    "fp": 1231,
+    "fn": 372,
+    "tn": 2350,
+    "support": 2419,
+    "predicted": 3278
+  },
+  "aspect_polarity_joint": {
+    "precision": 0.5231848688224527,
+    "recall": 0.7089706490285241,
+    "f1": 0.6020712655783746,
+    "tp": 1715,
+    "fp": 1563,
+    "fn": 704,
+    "support": 2419,
+    "predicted": 3278
+  },
+  "classification": {
+    "label_accuracy": 0.6775,
+    "macro_f1_4class": 0.5667300346278377,
+    "weighted_f1_4class": 0.686587582429286,
+    "sentiment_macro_f1_end_to_end": 0.5070811588681073,
+    "exact_row_match": 0.03,
+    "aspect_set_exact_match": 0.042,
+    "aspect_set_jaccard": 0.5717062770562771
+  },
+  "polarity_diagnostics": {
+    "gold_aspect_accuracy": 0.7089706490285241,
+    "gold_aspect_macro_f1": 0.6488526983043433,
+    "conditional_accuracy_when_both_mentioned": 0.8378114313629702,
+    "conditional_macro_f1_when_both_mentioned": 0.7180981665797029,
+    "gold_mentions": 2419,
+    "both_mentioned": 2047
+  },
+  "metadata": {
+    "num_samples": 500,
+    "num_aspects": 12,
+    "num_slots": 6000,
+    "none_label": 0,
+    "aspect_names": [
+      "AMBIENCE#GENERAL",
+      "DRINKS#PRICES",
+      "DRINKS#QUALITY",
+      "DRINKS#STYLE&OPTIONS",
+      "FOOD#PRICES",
+      "FOOD#QUALITY",
+      "FOOD#STYLE&OPTIONS",
+      "LOCATION#GENERAL",
+      "RESTAURANT#GENERAL",
+      "RESTAURANT#MISCELLANEOUS",
+      "RESTAURANT#PRICES",
+      "SERVICE#GENERAL"
+    ],
+    "label_names": [
+      "none",
+      "positive",
+      "negative",
+      "neutral"
+    ]
+  },
+  "per_aspect_f1": {
+    "AMBIENCE#GENERAL": 0.5610807216639484,
+    "DRINKS#PRICES": 0.3689093806921676,
+    "DRINKS#QUALITY": 0.40214095681108286,
+    "DRINKS#STYLE&OPTIONS": 0.3194361919852116,
+    "FOOD#PRICES": 0.6458170488101441,
+    "FOOD#QUALITY": 0.4227487376721479,
+    "FOOD#STYLE&OPTIONS": 0.4711981576424492,
+    "LOCATION#GENERAL": 0.5821865045317672,
+    "RESTAURANT#GENERAL": 0.3531276018585663,
+    "RESTAURANT#MISCELLANEOUS": 0.32633025592466924,
+    "RESTAURANT#PRICES": 0.32882366907952154,
+    "SERVICE#GENERAL": 0.4449877325087107
+  },
+  "per_aspect": {
+    "AMBIENCE#GENERAL": {
+      "support": 255,
+      "predicted": 261,
+      "prevalence": 0.51,
+      "aspect_detection": {
+        "precision": 0.7394636015325671,
+        "recall": 0.7568627450980392,
+        "f1": 0.7480620155038759,
+        "tp": 193,
+        "fp": 68,
+        "fn": 62,
+        "tn": 177,
+        "support": 255,
+        "predicted": 261
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.5938697318007663,
+        "recall": 0.6078431372549019,
+        "f1": 0.6007751937984496,
+        "tp": 155,
+        "fp": 106,
+        "fn": 100,
+        "support": 255,
+        "predicted": 261
+      },
+      "accuracy_4class": 0.664,
+      "balanced_accuracy_4class": 0.569473096293341,
+      "macro_f1_4class": 0.5610807216639484,
+      "sentiment_macro_f1_on_gold_mentions": 0.5927206093942772
+    },
+    "DRINKS#PRICES": {
+      "support": 76,
+      "predicted": 60,
+      "prevalence": 0.152,
+      "aspect_detection": {
+        "precision": 0.43333333333333335,
+        "recall": 0.34210526315789475,
+        "f1": 0.3823529411764707,
+        "tp": 26,
+        "fp": 34,
+        "fn": 50,
+        "tn": 390,
+        "support": 76,
+        "predicted": 60
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.31666666666666665,
+        "recall": 0.25,
+        "f1": 0.27941176470588236,
+        "tp": 19,
+        "fp": 41,
+        "fn": 57,
+        "support": 76,
+        "predicted": 60
+      },
+      "accuracy_4class": 0.818,
+      "balanced_accuracy_4class": 0.36586552860137767,
+      "macro_f1_4class": 0.3689093806921676,
+      "sentiment_macro_f1_on_gold_mentions": 0.25858250276854927
+    },
+    "DRINKS#QUALITY": {
+      "support": 71,
+      "predicted": 93,
+      "prevalence": 0.142,
+      "aspect_detection": {
+        "precision": 0.34408602150537637,
+        "recall": 0.4507042253521127,
+        "f1": 0.3902439024390244,
+        "tp": 32,
+        "fp": 61,
+        "fn": 39,
+        "tn": 368,
+        "support": 71,
+        "predicted": 93
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.2903225806451613,
+        "recall": 0.38028169014084506,
+        "f1": 0.32926829268292684,
+        "tp": 27,
+        "fp": 66,
+        "fn": 44,
+        "support": 71,
+        "predicted": 93
+      },
+      "accuracy_4class": 0.79,
+      "balanced_accuracy_4class": 0.3945868945868946,
+      "macro_f1_4class": 0.40214095681108286,
+      "sentiment_macro_f1_on_gold_mentions": 0.34920634920634924
+    },
+    "DRINKS#STYLE&OPTIONS": {
+      "support": 46,
+      "predicted": 63,
+      "prevalence": 0.092,
+      "aspect_detection": {
+        "precision": 0.3333333333333333,
+        "recall": 0.45652173913043476,
+        "f1": 0.38532110091743116,
+        "tp": 21,
+        "fp": 42,
+        "fn": 25,
+        "tn": 412,
+        "support": 46,
+        "predicted": 63
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.2857142857142857,
+        "recall": 0.391304347826087,
+        "f1": 0.33027522935779813,
+        "tp": 18,
+        "fp": 45,
+        "fn": 28,
+        "support": 46,
+        "predicted": 63
+      },
+      "accuracy_4class": 0.86,
+      "balanced_accuracy_4class": 0.3366283442570108,
+      "macro_f1_4class": 0.3194361919852116,
+      "sentiment_macro_f1_on_gold_mentions": 0.19672131147540983
+    },
+    "FOOD#PRICES": {
+      "support": 331,
+      "predicted": 413,
+      "prevalence": 0.662,
+      "aspect_detection": {
+        "precision": 0.784503631961259,
+        "recall": 0.9788519637462235,
+        "f1": 0.8709677419354838,
+        "tp": 324,
+        "fp": 89,
+        "fn": 7,
+        "tn": 80,
+        "support": 331,
+        "predicted": 413
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.6246973365617433,
+        "recall": 0.7794561933534743,
+        "f1": 0.6935483870967742,
+        "tp": 258,
+        "fp": 155,
+        "fn": 73,
+        "support": 331,
+        "predicted": 413
+      },
+      "accuracy_4class": 0.676,
+      "balanced_accuracy_4class": 0.6583208738377008,
+      "macro_f1_4class": 0.6458170488101441,
+      "sentiment_macro_f1_on_gold_mentions": 0.7448119386859342
+    },
+    "FOOD#QUALITY": {
+      "support": 457,
+      "predicted": 497,
+      "prevalence": 0.914,
+      "aspect_detection": {
+        "precision": 0.9175050301810865,
+        "recall": 0.9978118161925602,
+        "f1": 0.9559748427672957,
+        "tp": 456,
+        "fp": 41,
+        "fn": 1,
+        "tn": 2,
+        "support": 457,
+        "predicted": 497
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.8289738430583501,
+        "recall": 0.9015317286652079,
+        "f1": 0.8637316561844864,
+        "tp": 412,
+        "fp": 85,
+        "fn": 45,
+        "support": 457,
+        "predicted": 497
+      },
+      "accuracy_4class": 0.828,
+      "balanced_accuracy_4class": 0.4256842182573616,
+      "macro_f1_4class": 0.4227487376721479,
+      "sentiment_macro_f1_on_gold_mentions": 0.5683155719939426
+    },
+    "FOOD#STYLE&OPTIONS": {
+      "support": 403,
+      "predicted": 457,
+      "prevalence": 0.806,
+      "aspect_detection": {
+        "precision": 0.8336980306345733,
+        "recall": 0.9454094292803971,
+        "f1": 0.886046511627907,
+        "tp": 381,
+        "fp": 76,
+        "fn": 22,
+        "tn": 21,
+        "support": 403,
+        "predicted": 457
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.6914660831509847,
+        "recall": 0.7841191066997518,
+        "f1": 0.7348837209302325,
+        "tp": 316,
+        "fp": 141,
+        "fn": 87,
+        "support": 403,
+        "predicted": 457
+      },
+      "accuracy_4class": 0.674,
+      "balanced_accuracy_4class": 0.4662187429750497,
+      "macro_f1_4class": 0.4711981576424492,
+      "sentiment_macro_f1_on_gold_mentions": 0.5753883823032759
+    },
+    "LOCATION#GENERAL": {
+      "support": 179,
+      "predicted": 234,
+      "prevalence": 0.358,
+      "aspect_detection": {
+        "precision": 0.6324786324786325,
+        "recall": 0.8268156424581006,
+        "f1": 0.7167070217917675,
+        "tp": 148,
+        "fp": 86,
+        "fn": 31,
+        "tn": 235,
+        "support": 179,
+        "predicted": 234
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.47863247863247865,
+        "recall": 0.6256983240223464,
+        "f1": 0.5423728813559322,
+        "tp": 112,
+        "fp": 122,
+        "fn": 67,
+        "support": 179,
+        "predicted": 234
+      },
+      "accuracy_4class": 0.694,
+      "balanced_accuracy_4class": 0.6293207336212593,
+      "macro_f1_4class": 0.5821865045317672,
+      "sentiment_macro_f1_on_gold_mentions": 0.6551235020787479
+    },
+    "RESTAURANT#GENERAL": {
+      "support": 223,
+      "predicted": 399,
+      "prevalence": 0.446,
+      "aspect_detection": {
+        "precision": 0.49624060150375937,
+        "recall": 0.8878923766816144,
+        "f1": 0.6366559485530546,
+        "tp": 198,
+        "fp": 201,
+        "fn": 25,
+        "tn": 76,
+        "support": 223,
+        "predicted": 399
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.47619047619047616,
+        "recall": 0.852017937219731,
+        "f1": 0.6109324758842444,
+        "tp": 190,
+        "fp": 209,
+        "fn": 33,
+        "support": 223,
+        "predicted": 399
+      },
+      "accuracy_4class": 0.532,
+      "balanced_accuracy_4class": 0.3723444029774927,
+      "macro_f1_4class": 0.3531276018585663,
+      "sentiment_macro_f1_on_gold_mentions": 0.4684205340427628
+    },
+    "RESTAURANT#MISCELLANEOUS": {
+      "support": 130,
+      "predicted": 319,
+      "prevalence": 0.26,
+      "aspect_detection": {
+        "precision": 0.30407523510971785,
+        "recall": 0.7461538461538462,
+        "f1": 0.4320712694877506,
+        "tp": 97,
+        "fp": 222,
+        "fn": 33,
+        "tn": 148,
+        "support": 130,
+        "predicted": 319
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.2225705329153605,
+        "recall": 0.5461538461538461,
+        "f1": 0.3162583518930957,
+        "tp": 71,
+        "fp": 248,
+        "fn": 59,
+        "support": 130,
+        "predicted": 319
+      },
+      "accuracy_4class": 0.438,
+      "balanced_accuracy_4class": 0.41721189478160503,
+      "macro_f1_4class": 0.32633025592466924,
+      "sentiment_macro_f1_on_gold_mentions": 0.4848528015194682
+    },
+    "RESTAURANT#PRICES": {
+      "support": 73,
+      "predicted": 239,
+      "prevalence": 0.146,
+      "aspect_detection": {
+        "precision": 0.18828451882845187,
+        "recall": 0.6164383561643836,
+        "f1": 0.28846153846153844,
+        "tp": 45,
+        "fp": 194,
+        "fn": 28,
+        "tn": 233,
+        "support": 73,
+        "predicted": 239
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.14644351464435146,
+        "recall": 0.4794520547945205,
+        "f1": 0.22435897435897434,
+        "tp": 35,
+        "fp": 204,
+        "fn": 38,
+        "support": 73,
+        "predicted": 239
+      },
+      "accuracy_4class": 0.536,
+      "balanced_accuracy_4class": 0.4712653466751828,
+      "macro_f1_4class": 0.32882366907952154,
+      "sentiment_macro_f1_on_gold_mentions": 0.5395491859539302
+    },
+    "SERVICE#GENERAL": {
+      "support": 175,
+      "predicted": 243,
+      "prevalence": 0.35,
+      "aspect_detection": {
+        "precision": 0.5185185185185185,
+        "recall": 0.72,
+        "f1": 0.6028708133971292,
+        "tp": 126,
+        "fp": 117,
+        "fn": 49,
+        "tn": 208,
+        "support": 175,
+        "predicted": 243
+      },
+      "aspect_polarity_joint": {
+        "precision": 0.41975308641975306,
+        "recall": 0.5828571428571429,
+        "f1": 0.48803827751196166,
+        "tp": 102,
+        "fp": 141,
+        "fn": 73,
+        "support": 175,
+        "predicted": 243
+      },
+      "accuracy_4class": 0.62,
+      "balanced_accuracy_4class": 0.4504616477272727,
+      "macro_f1_4class": 0.4449877325087107,
+      "sentiment_macro_f1_on_gold_mentions": 0.4636698128299472
+    }
+  },
+  "per_label": {
+    "none": {
+      "label_id": 0,
+      "precision": 0.8633357825128581,
+      "recall": 0.656241273387322,
+      "f1": 0.7456766619070284,
+      "support": 3581,
+      "predicted": 2722
+    },
+    "positive": {
+      "label_id": 1,
+      "precision": 0.5653664809258465,
+      "recall": 0.7902935889754344,
+      "f1": 0.6591704147926037,
+      "support": 1669,
+      "predicted": 2333
+    },
+    "negative": {
+      "label_id": 2,
+      "precision": 0.35428571428571426,
+      "recall": 0.389937106918239,
+      "f1": 0.3712574850299401,
+      "support": 159,
+      "predicted": 175
+    },
+    "neutral": {
+      "label_id": 3,
+      "precision": 0.43376623376623374,
+      "recall": 0.5651438240270727,
+      "f1": 0.4908155767817781,
+      "support": 591,
+      "predicted": 770
+    }
+  },
+  "confusion_matrix": [
+    [
+      2350,
+      857,
+      75,
+      299
+    ],
+    [
+      239,
+      1319,
+      11,
+      100
+    ],
+    [
+      35,
+      25,
+      62,
+      37
+    ],
+    [
+      98,
+      132,
+      27,
+      334
+    ]
+  ],
+  "evaluation_loss": 1.3047183975577354,
+  "performance": {
+    "elapsed_seconds": 2.758404000007431,
+    "reviews_per_second": 181.2642383054306
+  },
+  "calibration": {
+    "n_bins": 15,
+    "presence": {
+      "ece": 0.06085338512575252,
+      "brier_score": 0.1907922993367982,
+      "nll": 0.5615710845744545,
+      "accuracy": 0.7328333333333333,
+      "num_predictions": 6000
+    },
+    "polarity_on_gold_aspects": {
+      "ece": 0.05528069587365046,
+      "brier_score": 0.25397664034784057,
+      "nll": 0.4628741772532396,
+      "accuracy": 0.8247209590739976,
+      "num_predictions": 2419
+    }
+  }
+}

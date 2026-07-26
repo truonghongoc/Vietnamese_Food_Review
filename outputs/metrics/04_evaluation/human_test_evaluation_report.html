@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>04 Evaluation — PhoBERT ABSA</title>
+<style>
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #172033;
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+}
+.container {
+  width: min(1180px, calc(100% - 32px));
+  margin: 30px auto 60px;
+}
+.hero {
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(135deg, #172554, #315efb);
+  box-shadow: 0 18px 45px rgba(37, 60, 130, .20);
+}
+.hero h1 { margin: 0 0 8px; }
+.hero p { margin: 0; opacity: .85; }
+.absa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
+.absa-card {
+  background: white;
+  border: 1px solid #e4e7ec;
+  border-radius: 14px;
+  padding: 17px;
+}
+.absa-label { color: #667085; font-size: 12px; }
+.absa-value { font-size: 25px; font-weight: 750; margin-top: 7px; }
+.absa-note { color: #667085; font-size: 11px; margin-top: 4px; }
+.absa-good { border-top: 4px solid #16a34a; }
+.absa-main { border-top: 4px solid #315efb; }
+.absa-warn { border-top: 4px solid #f59e0b; }
+.panel {
+  background: white;
+  border: 1px solid #e4e7ec;
+  border-radius: 16px;
+  padding: 22px;
+  margin-top: 18px;
+  overflow-x: auto;
+}
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.report-table th, .report-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e4e7ec;
+  text-align: left;
+  white-space: nowrap;
+}
+.report-table th { background: #f8fafc; }
+.charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  gap: 16px;
+}
+.chart img { width: 100%; background: white; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>Đánh giá PhoBERT ABSA</h1>
+    <p>C:\Users\ADMIN\Downloads\Food_Review_NLP\data\processed\VLSP2018-ABSA-Restaurant.parquet · split=test</p>
+  </div>
+
+  <div class="absa-grid">
+    <div class="absa-card absa-good">
+      <div class="absa-label">Aspect Detection F1</div>
+      <div class="absa-value">0.7186</div>
+      <div class="absa-note">Phát hiện aspect</div>
+    </div>
+    
+    <div class="absa-card absa-good">
+      <div class="absa-label">Aspect + Polarity F1</div>
+      <div class="absa-value">0.6021</div>
+      <div class="absa-note">End-to-end</div>
+    </div>
+    
+    <div class="absa-card absa-main">
+      <div class="absa-label">Macro-F1</div>
+      <div class="absa-value">0.5667</div>
+      <div class="absa-note">4-class</div>
+    </div>
+    
+    <div class="absa-card absa-main">
+      <div class="absa-label">Exact Row Match</div>
+      <div class="absa-value">0.0300</div>
+      <div class="absa-note">Đúng toàn bộ review</div>
+    </div>
+    
+    <div class="absa-card absa-warn">
+      <div class="absa-label">Presence ECE</div>
+      <div class="absa-value">0.0609</div>
+      <div class="absa-note">Càng thấp càng tốt</div>
+    </div>
+    
+    <div class="absa-card absa-warn">
+      <div class="absa-label">Polarity ECE</div>
+      <div class="absa-value">0.0553</div>
+      <div class="absa-note">Càng thấp càng tốt</div>
+    </div>
+    </div>
+
+  <section class="panel">
+    <h2>Metric theo aspect</h2>
+    <table class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Aspect</th>
+      <th>Support</th>
+      <th>Aspect Precision</th>
+      <th>Aspect Recall</th>
+      <th>Aspect F1</th>
+      <th>Joint Precision</th>
+      <th>Joint Recall</th>
+      <th>Joint F1</th>
+      <th>Macro-F1 4-class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FOOD#QUALITY</td>
+      <td>457</td>
+      <td>0.9175</td>
+      <td>0.9978</td>
+      <td>0.9560</td>
+      <td>0.8290</td>
+      <td>0.9015</td>
+      <td>0.8637</td>
+      <td>0.4227</td>
+    </tr>
+    <tr>
+      <td>FOOD#STYLE&amp;OPTIONS</td>
+      <td>403</td>
+      <td>0.8337</td>
+      <td>0.9454</td>
+      <td>0.8860</td>
+      <td>0.6915</td>
+      <td>0.7841</td>
+      <td>0.7349</td>
+      <td>0.4712</td>
+    </tr>
+    <tr>
+      <td>FOOD#PRICES</td>
+      <td>331</td>
+      <td>0.7845</td>
+      <td>0.9789</td>
+      <td>0.8710</td>
+      <td>0.6247</td>
+      <td>0.7795</td>
+      <td>0.6935</td>
+      <td>0.6458</td>
+    </tr>
+    <tr>
+      <td>RESTAURANT#GENERAL</td>
+      <td>223</td>
+      <td>0.4962</td>
+      <td>0.8879</td>
+      <td>0.6367</td>
+      <td>0.4762</td>
+      <td>0.8520</td>
+      <td>0.6109</td>
+      <td>0.3531</td>
+    </tr>
+    <tr>
+      <td>AMBIENCE#GENERAL</td>
+      <td>255</td>
+      <td>0.7395</td>
+      <td>0.7569</td>
+      <td>0.7481</td>
+      <td>0.5939</td>
+      <td>0.6078</td>
+      <td>0.6008</td>
+      <td>0.5611</td>
+    </tr>
+    <tr>
+      <td>LOCATION#GENERAL</td>
+      <td>179</td>
+      <td>0.6325</td>
+      <td>0.8268</td>
+      <td>0.7167</td>
+      <td>0.4786</td>
+      <td>0.6257</td>
+      <td>0.5424</td>
+      <td>0.5822</td>
+    </tr>
+    <tr>
+      <td>SERVICE#GENERAL</td>
+      <td>175</td>
+      <td>0.5185</td>
+      <td>0.7200</td>
+      <td>0.6029</td>
+      <td>0.4198</td>
+      <td>0.5829</td>
+      <td>0.4880</td>
+      <td>0.4450</td>
+    </tr>
+    <tr>
+      <td>DRINKS#STYLE&amp;OPTIONS</td>
+      <td>46</td>
+      <td>0.3333</td>
+      <td>0.4565</td>
+      <td>0.3853</td>
+      <td>0.2857</td>
+      <td>0.3913</td>
+      <td>0.3303</td>
+      <td>0.3194</td>
+    </tr>
+    <tr>
+      <td>DRINKS#QUALITY</td>
+      <td>71</td>
+      <td>0.3441</td>
+      <td>0.4507</td>
+      <td>0.3902</td>
+      <td>0.2903</td>
+      <td>0.3803</td>
+      <td>0.3293</td>
+      <td>0.4021</td>
+    </tr>
+    <tr>
+      <td>RESTAURANT#MISCELLANEOUS</td>
+      <td>130</td>
+      <td>0.3041</td>
+      <td>0.7462</td>
+      <td>0.4321</td>
+      <td>0.2226</td>
+      <td>0.5462</td>
+      <td>0.3163</td>
+      <td>0.3263</td>
+    </tr>
+    <tr>
+      <td>DRINKS#PRICES</td>
+      <td>76</td>
+      <td>0.4333</td>
+      <td>0.3421</td>
+      <td>0.3824</td>
+      <td>0.3167</td>
+      <td>0.2500</td>
+      <td>0.2794</td>
+      <td>0.3689</td>
+    </tr>
+    <tr>
+      <td>RESTAURANT#PRICES</td>
+      <td>73</td>
+      <td>0.1883</td>
+      <td>0.6164</td>
+      <td>0.2885</td>
+      <td>0.1464</td>
+      <td>0.4795</td>
+      <td>0.2244</td>
+      <td>0.3288</td>
+    </tr>
+  </tbody>
+</table>
+  </section>
+
+  <section class="panel">
+    <h2>Metric theo nhãn</h2>
+    <table class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Label</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1</th>
+      <th>Support</th>
+      <th>Predicted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>none</td>
+      <td>0.8633</td>
+      <td>0.6562</td>
+      <td>0.7457</td>
+      <td>3581</td>
+      <td>2722</td>
+    </tr>
+    <tr>
+      <td>positive</td>
+      <td>0.5654</td>
+      <td>0.7903</td>
+      <td>0.6592</td>
+      <td>1669</td>
+      <td>2333</td>
+    </tr>
+    <tr>
+      <td>negative</td>
+      <td>0.3543</td>
+      <td>0.3899</td>
+      <td>0.3713</td>
+      <td>159</td>
+      <td>175</td>
+    </tr>
+    <tr>
+      <td>neutral</td>
+      <td>0.4338</td>
+      <td>0.5651</td>
+      <td>0.4908</td>
+      <td>591</td>
+      <td>770</td>
+    </tr>
+  </tbody>
+</table>
+  </section>
+
+  <section class="panel">
+    <h2>Các lỗi có confidence sai cao</h2>
+    <table class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row_index</th>
+      <th>aspect</th>
+      <th>error_type</th>
+      <th>true_label</th>
+      <th>predicted_label</th>
+      <th>presence_confidence</th>
+      <th>polarity_confidence</th>
+      <th>error_confidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>295</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.8296</td>
+      <td>0.9984</td>
+      <td>0.9984</td>
+    </tr>
+    <tr>
+      <td>336</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.9650</td>
+      <td>0.9968</td>
+      <td>0.9968</td>
+    </tr>
+    <tr>
+      <td>354</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.9259</td>
+      <td>0.9963</td>
+      <td>0.9963</td>
+    </tr>
+    <tr>
+      <td>380</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.9608</td>
+      <td>0.9959</td>
+      <td>0.9959</td>
+    </tr>
+    <tr>
+      <td>131</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>negative</td>
+      <td>neutral</td>
+      <td>0.9534</td>
+      <td>0.9953</td>
+      <td>0.9953</td>
+    </tr>
+    <tr>
+      <td>192</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.8928</td>
+      <td>0.9927</td>
+      <td>0.9927</td>
+    </tr>
+    <tr>
+      <td>386</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>negative</td>
+      <td>neutral</td>
+      <td>0.9147</td>
+      <td>0.9924</td>
+      <td>0.9924</td>
+    </tr>
+    <tr>
+      <td>171</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.8289</td>
+      <td>0.9922</td>
+      <td>0.9922</td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.9443</td>
+      <td>0.9920</td>
+      <td>0.9920</td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.9317</td>
+      <td>0.9914</td>
+      <td>0.9914</td>
+    </tr>
+    <tr>
+      <td>128</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.9854</td>
+      <td>0.9901</td>
+      <td>0.9901</td>
+    </tr>
+    <tr>
+      <td>267</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.9602</td>
+      <td>0.9901</td>
+      <td>0.9901</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>FOOD#QUALITY</td>
+      <td>false_positive_aspect</td>
+      <td>none</td>
+      <td>positive</td>
+      <td>0.9899</td>
+      <td>0.9919</td>
+      <td>0.9899</td>
+    </tr>
+    <tr>
+      <td>445</td>
+      <td>DRINKS#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.6132</td>
+      <td>0.9890</td>
+      <td>0.9890</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.9340</td>
+      <td>0.9877</td>
+      <td>0.9877</td>
+    </tr>
+    <tr>
+      <td>215</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>negative</td>
+      <td>0.8255</td>
+      <td>0.9874</td>
+      <td>0.9874</td>
+    </tr>
+    <tr>
+      <td>142</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.9588</td>
+      <td>0.9869</td>
+      <td>0.9869</td>
+    </tr>
+    <tr>
+      <td>160</td>
+      <td>FOOD#STYLE&amp;OPTIONS</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.7628</td>
+      <td>0.9862</td>
+      <td>0.9862</td>
+    </tr>
+    <tr>
+      <td>312</td>
+      <td>FOOD#STYLE&amp;OPTIONS</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.7472</td>
+      <td>0.9854</td>
+      <td>0.9854</td>
+    </tr>
+    <tr>
+      <td>179</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.8832</td>
+      <td>0.9847</td>
+      <td>0.9847</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>DRINKS#STYLE&amp;OPTIONS</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.6638</td>
+      <td>0.9842</td>
+      <td>0.9842</td>
+    </tr>
+    <tr>
+      <td>443</td>
+      <td>RESTAURANT#GENERAL</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.7719</td>
+      <td>0.9838</td>
+      <td>0.9838</td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.8915</td>
+      <td>0.9831</td>
+      <td>0.9831</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.9440</td>
+      <td>0.9831</td>
+      <td>0.9831</td>
+    </tr>
+    <tr>
+      <td>447</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>negative</td>
+      <td>neutral</td>
+      <td>0.9205</td>
+      <td>0.9823</td>
+      <td>0.9823</td>
+    </tr>
+    <tr>
+      <td>180</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.9482</td>
+      <td>0.9820</td>
+      <td>0.9820</td>
+    </tr>
+    <tr>
+      <td>377</td>
+      <td>SERVICE#GENERAL</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.7771</td>
+      <td>0.9819</td>
+      <td>0.9819</td>
+    </tr>
+    <tr>
+      <td>204</td>
+      <td>SERVICE#GENERAL</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.8432</td>
+      <td>0.9818</td>
+      <td>0.9818</td>
+    </tr>
+    <tr>
+      <td>187</td>
+      <td>FOOD#STYLE&amp;OPTIONS</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.8669</td>
+      <td>0.9804</td>
+      <td>0.9804</td>
+    </tr>
+    <tr>
+      <td>240</td>
+      <td>AMBIENCE#GENERAL</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>negative</td>
+      <td>0.8153</td>
+      <td>0.9796</td>
+      <td>0.9796</td>
+    </tr>
+    <tr>
+      <td>358</td>
+      <td>FOOD#QUALITY</td>
+      <td>false_positive_aspect</td>
+      <td>none</td>
+      <td>positive</td>
+      <td>0.9795</td>
+      <td>0.9926</td>
+      <td>0.9795</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>FOOD#QUALITY</td>
+      <td>false_positive_aspect</td>
+      <td>none</td>
+      <td>positive</td>
+      <td>0.9791</td>
+      <td>0.9954</td>
+      <td>0.9791</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>FOOD#QUALITY</td>
+      <td>false_positive_aspect</td>
+      <td>none</td>
+      <td>positive</td>
+      <td>0.9788</td>
+      <td>0.9663</td>
+      <td>0.9788</td>
+    </tr>
+    <tr>
+      <td>159</td>
+      <td>FOOD#STYLE&amp;OPTIONS</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.8285</td>
+      <td>0.9781</td>
+      <td>0.9781</td>
+    </tr>
+    <tr>
+      <td>142</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>negative</td>
+      <td>positive</td>
+      <td>0.7782</td>
+      <td>0.9780</td>
+      <td>0.9780</td>
+    </tr>
+    <tr>
+      <td>299</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.9815</td>
+      <td>0.9779</td>
+      <td>0.9779</td>
+    </tr>
+    <tr>
+      <td>323</td>
+      <td>FOOD#QUALITY</td>
+      <td>wrong_polarity</td>
+      <td>negative</td>
+      <td>neutral</td>
+      <td>0.9738</td>
+      <td>0.9754</td>
+      <td>0.9754</td>
+    </tr>
+    <tr>
+      <td>125</td>
+      <td>FOOD#PRICES</td>
+      <td>wrong_polarity</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>0.8541</td>
+      <td>0.9745</td>
+      <td>0.9745</td>
+    </tr>
+    <tr>
+      <td>430</td>
+      <td>FOOD#QUALITY</td>
+      <td>false_positive_aspect</td>
+      <td>none</td>
+      <td>positive</td>
+      <td>0.9736</td>
+      <td>0.9707</td>
+      <td>0.9736</td>
+    </tr>
+    <tr>
+      <td>417</td>
+      <td>SERVICE#GENERAL</td>
+      <td>wrong_polarity</td>
+      <td>neutral</td>
+      <td>positive</td>
+      <td>0.7900</td>
+      <td>0.9721</td>
+      <td>0.9721</td>
+    </tr>
+  </tbody>
+</table>
+  </section>
+
+  <section class="panel">
+    <h2>Biểu đồ</h2>
+    <div class="charts"><div class="chart"><img src="C:\Users\ADMIN\Downloads\Food_Review_NLP\outputs\figures\04_evaluation\joint_f1_by_aspect.png"></div><div class="chart"><img src="C:\Users\ADMIN\Downloads\Food_Review_NLP\outputs\figures\04_evaluation\aspect_precision_recall.png"></div><div class="chart"><img src="C:\Users\ADMIN\Downloads\Food_Review_NLP\outputs\figures\04_evaluation\confusion_matrix_4class.png"></div><div class="chart"><img src="C:\Users\ADMIN\Downloads\Food_Review_NLP\outputs\figures\04_evaluation\presence_reliability.png"></div><div class="chart"><img src="C:\Users\ADMIN\Downloads\Food_Review_NLP\outputs\figures\04_evaluation\polarity_reliability.png"></div><div class="chart"><img src="C:\Users\ADMIN\Downloads\Food_Review_NLP\outputs\figures\04_evaluation\error_type_distribution.png"></div></div>
+  </section>
+</div>
+</body>
+</html>
