@@ -1,0 +1,31 @@
+{
+  "thresholds": [
+    0.7,
+    0.48,
+    0.46,
+    0.48,
+    0.62,
+    0.8,
+    0.68,
+    0.6,
+    0.58,
+    0.32,
+    0.56,
+    0.7
+  ],
+  "aspect_names": [
+    "AMBIENCE#GENERAL",
+    "DRINKS#PRICES",
+    "DRINKS#QUALITY",
+    "DRINKS#STYLE&OPTIONS",
+    "FOOD#PRICES",
+    "FOOD#QUALITY",
+    "FOOD#STYLE&OPTIONS",
+    "LOCATION#GENERAL",
+    "RESTAURANT#GENERAL",
+    "RESTAURANT#MISCELLANEOUS",
+    "RESTAURANT#PRICES",
+    "SERVICE#GENERAL"
+  ],
+  "note": "Presence thresholds tuned on dev set. v4 cân bằng precision/recall và giảm spam aspect."
+}
