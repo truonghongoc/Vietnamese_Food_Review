@@ -1,0 +1,3726 @@
+{
+  "😂": {
+    "vi": "cười_ra_nước_mắt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.221,
+    "type": "emoji",
+    "domain": "reaction"
+  },
+  "❤": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.746,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "♥": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.657,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "😍": {
+    "vi": "mê_mẩn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.678,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😭": {
+    "vi": "thất_vọng_nặng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.093,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🙁": { 
+    "vi": "thất_vọng_nhẹ",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.033,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😘": {
+    "vi": "cực_kỳ_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.701,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😊": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.644,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "👌": {
+    "vi": "tuyệt_vời",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.563,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "💕": {
+    "vi": "rất_yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.632,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "👏": {
+    "vi": "khen_ngợi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.52,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤷": {
+    "vi": "khó_hiểu",
+    "label": "neutral",
+    "sentiment": "negative",
+    "score": -0.045,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "📌": { 
+    "vi": "ghim_địa_chỉ_quán", 
+    "label": "neutral", 
+    "sentiment": "neutral", 
+    "score": 0.0, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "📍": { 
+      "vi": "vị_trí_quán_ăn", 
+      "label": "neutral", 
+      "sentiment": "neutral", "score": 0.0, 
+      "type": "emoji", 
+      "domain": "food_experience" 
+  },
+  "⏰": { 
+    "vi": "giờ_mở_cửa_hoặc_chờ_món_lâu", 
+    "label": "negative", 
+    "sentiment": "negative", 
+    "score": -0.05, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "🛵": { 
+    "vi": "giao_hàng_tận_nơi/xe", 
+    "label": "positive", 
+    "sentiment": "positive", 
+    "score": 0.12, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "✒": { 
+    "vi": "ghi_chú_hóa_đơn_hoặc_đặt_món", 
+    "label": "neutral", 
+    "sentiment": "neutral", 
+    "score": 0.0, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "🔻": { 
+    "vi": "giảm_giá_hoặc_chất_lượng_đi_xuống", 
+    "label": "negative", 
+    "sentiment": "negative", 
+    "score": -0.15, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "🕛": { 
+    "vi": "đúng_giờ_hẹn_hoặc_đóng_cửa", 
+    "label": "neutral", 
+    "sentiment": "neutral", 
+    "score": 0.0, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "🥨": { 
+    "vi": "bánh_pretzel_ngon", 
+    "label": "positive", 
+    "sentiment": "positive", 
+    "score": 0.25, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "🐽": { 
+    "vi": "món_ăn_từ_thịt_heo", 
+    "label": "neutral", 
+    "sentiment": "neutral", 
+    "score": 0.0, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "🥖": { 
+    "vi": "bánh_mì_pháp_hoặc_bánh_mì_việt_nam", 
+    "label": "positive", 
+    "sentiment": "positive", 
+    "score": 0.2, 
+    "type": "emoji", 
+    "domain": "food_experience" },
+  "🙂": { 
+    "vi": "bằng_lòng_nhẹ_hoặc_bằng_mặt_không_bằng_lòng", 
+    "label": "neutral", 
+    "sentiment": "neutral", 
+    "score": 0.02, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "📜": { 
+    "vi": "thực_đơn_quán", 
+    "label": "neutral", 
+    "sentiment": "neutral", 
+    "score": 0.0, 
+    "type": "emoji", 
+    "domain": "food_experience" },
+  "🥩": { 
+    "vi": "thịt_bò_tươi_hoặc_món_steak", 
+    "label": "positive", 
+    "sentiment": "positive", 
+    "score": 0.3, 
+    "type": "emoji", 
+    "domain": "food_experience" },
+  "🥪": { 
+    "vi": "bánh_mì_kẹp_tiện_lợi", 
+    "label": "positive", 
+    "sentiment": "positive", 
+    "score": 0.18, 
+    "type": "emoji", 
+    "domain": "food_experience" 
+  },
+  "😁": {
+    "vi": "vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.449,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "☺": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.657,
+    "type": "symbol",
+    "domain": "food_experience"
+  },
+  "♡": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.669,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "👍": {
+    "vi": "tốt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.521,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😩": {
+    "vi": "thất_vọng_nặng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.368,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🙏": {
+    "vi": "cảm_ơn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.417,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "✌": {
+    "vi": "ổn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.463,
+    "type": "symbol",
+    "domain": "food_experience"
+  },
+  "😏": {
+    "vi": "thèm_thuồng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.332,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😉": {
+    "vi": "ngon_lắm_đó",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.463,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🙌": {
+    "vi": "tuyệt_vời",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.559,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🙈": {
+    "vi": "ngại_ngùng_nhưng_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.432,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💪": {
+    "vi": "chất_lượng_đỉnh_cao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.555,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😄": {
+    "vi": "vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.421,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😒": {
+    "vi": "không_hài_lòng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.374,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "💃": {
+    "vi": "vui_mừng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.734,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💖": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.712,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "😃": {
+    "vi": "vui",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.557,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😔": {
+    "vi": "buồn",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.146,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😱": {
+    "vi": "bất_ngờ_quá",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.19,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎉": {
+    "vi": "ăn_mừng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.738,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "😜": {
+    "vi": "thú_vị",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.455,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🌸": {
+    "vi": "trang_trí_tinh_tế",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.65,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💜": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.654,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "💙": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.73,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "✨": {
+    "vi": "đặc_sắc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.351,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "😳": {
+    "vi": "bất_ngờ",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": 0.018,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💗": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.657,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "★": {
+    "vi": "đánh_giá_sao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.283,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "☀": {
+    "vi": "sảng_khoái",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.465,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "😡": {
+    "vi": "tức_giận",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.173,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😎": {
+    "vi": "phong_cách",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.491,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😢": {
+    "vi": "hơi_thất_vọng",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": 0.007,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💋": {
+    "vi": "ngon_tuyệt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.691,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😋": {
+    "vi": "ngon_miệng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.631,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🙊": {
+    "vi": "không_nói_được",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.459,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😴": {
+    "vi": "chán_quá",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.08,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🎶": {
+    "vi": "không_khí_vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.537,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💞": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.739,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "😌": {
+    "vi": "thỏa_mãn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.482,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🔥": {
+    "vi": "siêu_hot",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.139,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "💯": {
+    "vi": "hoàn_hảo_tuyệt_đối",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.12,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🔫": {
+    "vi": "không_hài_lòng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.194,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "💛": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.709,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "💁": {
+    "vi": "nhân_viên_phục_vụ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.326,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "💚": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.656,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "♫": {
+    "vi": "nhạc_nền_dễ_chịu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.287,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "😞": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.118,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😆": {
+    "vi": "cực_kỳ_vui",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.409,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😝": {
+    "vi": "ngon_khó_cưỡng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.423,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😪": {
+    "vi": "mệt_mỏi",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.08,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😫": {
+    "vi": "quá_mệt_mỏi",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.145,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😅": {
+    "vi": "hơi_ngại",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.178,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "👊": {
+    "vi": "đỉnh_cao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.228,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "💀": {
+    "vi": "ngon_chết_người",
+    "label": "negative",
+    "sentiment": "mixed",
+    "score": -0.207,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😀": {
+    "vi": "vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.568,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😚": {
+    "vi": "thơm_ngon",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.71,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😻": {
+    "vi": "mê_mẩn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.619,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "👀": {
+    "vi": "đáng_chú_ý",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.063,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💘": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.683,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "☕": {
+    "vi": "cà_phê",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.244,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "👋": {
+    "vi": "chào_đón_khách",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.413,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "✋": {
+    "vi": "chờ_một_chút",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.126,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "🎊": {
+    "vi": "ăn_mừng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.721,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍕": {
+    "vi": "pizza",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.417,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "❄": {
+    "vi": "mát_lạnh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.506,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "😥": {
+    "vi": "hơi_buồn",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.122,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😕": {
+    "vi": "không_hài_lòng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.397,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💥": {
+    "vi": "ấn_tượng_mạnh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.148,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "💔": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.121,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😤": {
+    "vi": "bực_bội",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.209,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😈": {
+    "vi": "ngon_nghịch_ngợm",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.265,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "✈": {
+    "vi": "đặt_hàng_từ_xa",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.415,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🔝": {
+    "vi": "top_đầu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.474,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😰": {
+    "vi": "lo_lắng",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": -0.02,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "⚽": {
+    "vi": "không_khí_thể_thao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.616,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "😑": {
+    "vi": "nhạt_nhẽo",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.311,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "👑": {
+    "vi": "đẳng_cấp_thượng_lưu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.694,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😹": {
+    "vi": "hài_hước",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.141,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "👉": {
+    "vi": "gợi_ý_món_ăn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.39,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🍃": {
+    "vi": "rau_xanh_tươi_mát",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.378,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎁": {
+    "vi": "quà_tặng_khuyến_mãi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.759,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😠": {
+    "vi": "tức_giận",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.299,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🐧": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.456,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "☆": {
+    "vi": "đánh_giá_sao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.428,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "🍀": {
+    "vi": "may_mắn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.285,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎈": {
+    "vi": "vui_mừng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.718,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "😓": {
+    "vi": "vất_vả",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.08,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😣": {
+    "vi": "đau_khổ",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.212,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😐": {
+    "vi": "bình_thường",
+    "label": "negative",
+    "sentiment": "neutral",
+    "score": -0.388,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "✊": {
+    "vi": "quyết_tâm",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.429,
+    "type": "symbol",
+    "domain": "general"
+  },
+  "😨": {
+    "vi": "sợ_hãi",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.14,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😖": {
+    "vi": "khó_chịu",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.155,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💤": {
+    "vi": "buồn_ngủ",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.37,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💓": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.664,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "👎": {
+    "vi": "không_tốt",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.188,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "💦": {
+    "vi": "tươi_mát",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.471,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "✔": {
+    "vi": "xác_nhận_đơn_hàng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.27,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "😷": {
+    "vi": "lo_ngại_vệ_sinh",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.169,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "⚡": {
+    "vi": "giao_hàng_siêu_nhanh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.177,
+    "type": "symbol",
+    "domain": "delivery"
+  },
+  "🙋": {
+    "vi": "gọi_phục_vụ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.485,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🎄": {
+    "vi": "không_khí_lễ_hội",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.531,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💩": {
+    "vi": "tệ_hại",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.116,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎵": {
+    "vi": "nhạc_nền_dễ_chịu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "😛": {
+    "vi": "ngon_lắm",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.601,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😬": {
+    "vi": "hơi_ngại",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.194,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "👯": {
+    "vi": "bạn_bè_vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.439,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💎": {
+    "vi": "cao_cấp_sang_trọng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.561,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🌿": {
+    "vi": "nguyên_liệu_tươi_xanh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.384,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎂": {
+    "vi": "bánh_sinh_nhật",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.613,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🌟": {
+    "vi": "nổi_bật",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.327,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😿": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.372,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🍺": {
+    "vi": "bia",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.493,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "😲": {
+    "vi": "ngạc_nhiên",
+    "label": "negative",
+    "sentiment": "mixed",
+    "score": -0.068,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎸": {
+    "vi": "không_khí_sôi_động",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.516,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍹": {
+    "vi": "đồ_uống_nhiệt_đới",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.659,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "💫": {
+    "vi": "đặc_sắc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "📚": {
+    "vi": "thực_đơn_phong_phú",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.336,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😶": {
+    "vi": "im_lặng_không_biết_nói_gì",
+    "label": "negative",
+    "sentiment": "neutral",
+    "score": -0.142,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🌷": {
+    "vi": "hoa_trang_trí",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.538,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💝": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.644,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "💨": {
+    "vi": "phục_vụ_nhanh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.381,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🏈": {
+    "vi": "không_khí_thể_thao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.53,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💍": {
+    "vi": "sang_trọng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.478,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "☔": {
+    "vi": "giao_hàng_trời_mưa",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.289,
+    "type": "symbol",
+    "domain": "delivery"
+  },
+  "👸": {
+    "vi": "đẳng_cấp",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.605,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍩": {
+    "vi": "bánh_donut",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.382,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "👻": {
+    "vi": "vui_nhộn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.228,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💰": {
+    "vi": "giá_cả",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.251,
+    "type": "emoji",
+    "domain": "pricing"
+  },
+  "🍻": {
+    "vi": "bia_cụng_ly",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.512,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🙅": {
+    "vi": "từ_chối",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.202,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🌞": {
+    "vi": "sảng_khoái",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.558,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍁": {
+    "vi": "nguyên_liệu_theo_mùa",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.482,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "⭐": {
+    "vi": "đánh_giá_sao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.58,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "🎀": {
+    "vi": "trang_trí_đẹp_mắt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.629,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🐷": {
+    "vi": "thịt_heo",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.368,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🙉": {
+    "vi": "không_muốn_nghe_phàn_nàn",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.333,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🌺": {
+    "vi": "hoa_trang_trí",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.549,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💅": {
+    "vi": "sang_chảnh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.388,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🐶": {
+    "vi": "thân_thiện",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.576,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌚": {
+    "vi": "huyền_bí",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.464,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👽": {
+    "vi": "độc_lạ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.315,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎤": {
+    "vi": "sự_kiện_ca_nhạc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.476,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👭": {
+    "vi": "bạn_bè_cùng_ăn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.463,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🎧": {
+    "vi": "không_khí_âm_nhạc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.414,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👆": {
+    "vi": "gọi_ý_món_trên_menu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.326,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🍸": {
+    "vi": "cocktail",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.539,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍷": {
+    "vi": "rượu_vang",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.393,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍉": {
+    "vi": "dưa_hấu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.597,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "😇": {
+    "vi": "ngon_thánh_thiện",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.587,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🏃": {
+    "vi": "giao_hàng_nhanh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.406,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "😸": {
+    "vi": "vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.41,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "👶": {
+    "vi": "thân_thiện_trẻ_em",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.434,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "💐": {
+    "vi": "hoa_tươi_trang_trí",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.735,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌊": {
+    "vi": "tươi_mát",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🍦": {
+    "vi": "kem_mềm",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.459,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍓": {
+    "vi": "dâu_tây",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.67,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "👇": {
+    "vi": "gợi_ý_món_bên_dưới",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.247,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "💆": {
+    "vi": "thư_giãn_thoải_mái",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.221,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🍴": {
+    "vi": "dao_dĩa_dụng_cụ_ăn",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.537,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😧": {
+    "vi": "lo_lắng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.063,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "😮": {
+    "vi": "ngạc_nhiên",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.269,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🚫": {
+    "vi": "không_cho_phép",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.44,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "😽": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.571,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🌈": {
+    "vi": "đa_dạng_phong_phú",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.516,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🙀": {
+    "vi": "ấn_tượng_quá_mức",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.33,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "⚠": {
+    "vi": "cảnh_báo",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.066,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "🎮": {
+    "vi": "không_khí_giải_trí",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.427,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍆": {
+    "vi": "cà_tím",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.402,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍰": {
+    "vi": "bánh_ngọt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.448,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🙇": {
+    "vi": "cảm_ơn_khách_hàng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.14,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🍟": {
+    "vi": "khoai_tây_chiên",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.302,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍌": {
+    "vi": "chuối",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.435,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "💑": {
+    "vi": "không_gian_hẹn_hò",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.659,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👬": {
+    "vi": "bạn_bè_cùng_ăn",
+    "label": "negative",
+    "sentiment": "neutral",
+    "score": -0.059,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🐣": {
+    "vi": "tươi_mới",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.476,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎃": {
+    "vi": "không_khí_lễ_hội_Halloween",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.595,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "😟": {
+    "vi": "lo_lắng",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.072,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🐾": {
+    "vi": "thân_thiện_thú_cưng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.605,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎓": {
+    "vi": "đầu_bếp_chuyên_nghiệp",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.563,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🏊": {
+    "vi": "sảng_khoái",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.575,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🍫": {
+    "vi": "socola",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.152,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "📷": {
+    "vi": "chụp_ảnh_đồ_ăn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.43,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "👄": {
+    "vi": "hương_vị_thơm_ngon",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.474,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🌼": {
+    "vi": "tươi_tắn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.779,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🚶": {
+    "vi": "khách_đi_bộ_đến",
+    "label": "negative",
+    "sentiment": "neutral",
+    "score": -0.143,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🐱": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.513,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🐸": {
+    "vi": "tươi_mát",
+    "label": "negative",
+    "sentiment": "neutral",
+    "score": -0.08,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👿": {
+    "vi": "cực_kỳ_tức_giận",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.534,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "📖": {
+    "vi": "thực_đơn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.169,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🐒": {
+    "vi": "vui_nhộn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.521,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌍": {
+    "vi": "ẩm_thực_quốc_tế",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.592,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🐥": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.586,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌀": {
+    "vi": "xoáy_độc_đáo",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.101,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🐼": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.261,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎥": {
+    "vi": "review_ẩm_thực",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.29,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "💄": {
+    "vi": "sang_trọng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.435,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💸": {
+    "vi": "tốn_tiền",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.159,
+    "type": "emoji",
+    "domain": "pricing"
+  },
+  "🏀": {
+    "vi": "không_khí_thể_thao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.254,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💉": {
+    "vi": "bổ_dưỡng_như_thuốc_bổ",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.358,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "💟": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.682,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "🚗": {
+    "vi": "giao_hàng_tận_nơi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.231,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "😯": {
+    "vi": "bất_ngờ",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.123,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "📝": {
+    "vi": "ghi_chú_đơn_hàng",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.231,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "💭": {
+    "vi": "suy_nghĩ_chọn_món",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.206,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🌙": {
+    "vi": "ăn_khuya",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.59,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🐟": {
+    "vi": "cá_tươi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.689,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "👣": {
+    "vi": "tìm_đến_nhà_hàng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.344,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🎆": {
+    "vi": "pháo_hoa_lễ_hội",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.709,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🐰": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.586,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💊": {
+    "vi": "bổ_dưỡng",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.431,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🚨": {
+    "vi": "khuyến_mãi_đặc_biệt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.638,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "😦": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.368,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🍪": {
+    "vi": "bánh_quy",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.316,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍣": {
+    "vi": "sushi",
+    "label": "negative",
+    "sentiment": "neutral",
+    "score": -0.232,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "✅": {
+    "vi": "xác_nhận_đơn_hàng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.407,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "🎼": {
+    "vi": "không_khí_âm_nhạc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.327,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌻": {
+    "vi": "tươi_sáng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.57,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "😵": {
+    "vi": "ngon_quá_choáng",
+    "label": "positive",
+    "sentiment": "mixed",
+    "score": 0.085,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🐯": {
+    "vi": "hương_vị_mạnh_mẽ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.476,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "👼": {
+    "vi": "ngon_trong_sáng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.333,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🍔": {
+    "vi": "hamburger",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.277,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🏆": {
+    "vi": "xuất_sắc_nhất",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.726,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "😙": {
+    "vi": "hôn_thơm",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.778,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "⛄": {
+    "vi": "mát_lạnh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.521,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "👅": {
+    "vi": "hương_vị_tuyệt_vời",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.461,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🍂": {
+    "vi": "nguyên_liệu_mùa_thu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.547,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "💏": {
+    "vi": "không_gian_lãng_mạn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.388,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌴": {
+    "vi": "không_khí_nhiệt_đới",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.525,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👈": {
+    "vi": "gợi_ý_món_bên_trái",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.424,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🌹": {
+    "vi": "lãng_mạn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🙆": {
+    "vi": "đồng_ý",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "💬": {
+    "vi": "đánh_giá_nhận_xét",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.364,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🚀": {
+    "vi": "giao_hàng_siêu_tốc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.488,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "💢": {
+    "vi": "bực_bội",
+    "label": "positive",
+    "sentiment": "negative",
+    "score": 0.233,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🎬": {
+    "vi": "trải_nghiệm_ẩm_thực_phong_cách",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.279,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🍧": {
+    "vi": "đá_bào",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.302,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍜": {
+    "vi": "mì_nước",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.395,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐘": {
+    "vi": "khẩu_phần_lớn",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": 0.023,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "👧": {
+    "vi": "thân_thiện_trẻ_em",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.14,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏄": {
+    "vi": "sảng_khoái",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.524,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🍋": {
+    "vi": "chanh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.244,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🆗": {
+    "vi": "ổn_thỏa",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.537,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "📺": {
+    "vi": "không_gian_giải_trí",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.375,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍅": {
+    "vi": "cà_chua",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.35,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "⛅": {
+    "vi": "thời_tiết_dễ_chịu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.45,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "🐢": {
+    "vi": "giao_hàng_chậm",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "👙": {
+    "vi": "không_khí_biển",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏡": {
+    "vi": "không_gian_ấm_cúng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.436,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌾": {
+    "vi": "nguyên_liệu_tự_nhiên",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.538,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🐬": {
+    "vi": "tươi_mát",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.421,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍤": {
+    "vi": "tôm_chiên",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.053,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐝": {
+    "vi": "mật_ong_tự_nhiên",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.211,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🌝": {
+    "vi": "vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.189,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🔋": {
+    "vi": "hết_năng_lượng_dịch_vụ",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.486,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🐍": {
+    "vi": "độc_lạ",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.351,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🍳": {
+    "vi": "nấu_ăn",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": 0.028,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🔵": {
+    "vi": "trung_tính",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.306,
+    "type": "symbol",
+    "domain": "general"
+  },
+  "😾": {
+    "vi": "không_hài_lòng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.333,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🌕": {
+    "vi": "no_đủ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.556,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🐨": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.444,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💿": {
+    "vi": "thực_đơn_đa_dạng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.611,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🌳": {
+    "vi": "không_gian_xanh_mát",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.486,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👰": {
+    "vi": "tiệc_cưới",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.486,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "⚓": {
+    "vi": "chất_lượng_vững_chắc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.571,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "🚴": {
+    "vi": "giao_hàng_bằng_xe_đạp",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.657,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "👗": {
+    "vi": "ăn_mặc_lịch_sự_vào_nhà_hàng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.235,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍒": {
+    "vi": "cherry",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.313,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐭": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.688,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👟": {
+    "vi": "thoải_mái",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.417,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌎": {
+    "vi": "ẩm_thực_thế_giới",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.319,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🍍": {
+    "vi": "dứa",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.468,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐮": {
+    "vi": "thịt_bò_tươi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.587,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🌅": {
+    "vi": "ăn_sáng_bình_minh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.356,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "👠": {
+    "vi": "sang_trọng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.356,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌽": {
+    "vi": "bắp_ngô",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.444,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "💧": {
+    "vi": "thiếu_nước_uống",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.159,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "❓": {
+    "vi": "câu_hỏi_thắc_mắc",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.068,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "🍬": {
+    "vi": "kẹo",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.364,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "😺": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.395,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🐴": {
+    "vi": "vui_nhộn",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.07,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💲": {
+    "vi": "giá_cả",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.242,
+    "type": "symbol",
+    "domain": "pricing"
+  },
+  "🍙": {
+    "vi": "cơm_nắm_onigiri",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.281,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍗": {
+    "vi": "đùi_gà_rán",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.063,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍲": {
+    "vi": "nồi_lẩu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.125,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍥": {
+    "vi": "bánh_cá_Nhật",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.594,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "😼": {
+    "vi": "thú_vị",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.355,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🐙": {
+    "vi": "bạch_tuộc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.387,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "👨": {
+    "vi": "khách_hàng_nam",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.516,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🍚": {
+    "vi": "cơm_trắng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.452,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍖": {
+    "vi": "sườn_thịt_nướng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.129,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🎹": {
+    "vi": "không_khí_âm_nhạc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.355,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "👩": {
+    "vi": "khách_hàng_nữ",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.067,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "👦": {
+    "vi": "khách_hàng_nhỏ_tuổi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.133,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "☠": {
+    "vi": "cay_chết_người",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": -0.033,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "🍏": {
+    "vi": "táo_xanh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.067,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🚘": {
+    "vi": "giao_hàng_tận_nơi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.067,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🏋": {
+    "vi": "thực_phẩm_tăng_cường_sức_mạnh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🌌": {
+    "vi": "không_gian_ấn_tượng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.52,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍎": {
+    "vi": "táo_đỏ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.32,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐻": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.44,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "💇": {
+    "vi": "thư_giãn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.327,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎅": {
+    "vi": "không_khí_Giáng_Sinh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.318,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌃": {
+    "vi": "ăn_tối_về_đêm",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.39,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "📱": {
+    "vi": "đặt_đồ_ăn_qua_ứng_dụng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.308,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🙍": {
+    "vi": "khách_phàn_nàn",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.327,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🍑": {
+    "vi": "đào",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.25,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🔊": {
+    "vi": "thông_báo_khuyến_mãi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.404,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "👹": {
+    "vi": "hương_vị_mạnh_mẽ",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.058,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🍊": {
+    "vi": "cam",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.417,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐏": {
+    "vi": "thịt_cừu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.558,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🌲": {
+    "vi": "không_gian_xanh_mát",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.486,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌐": {
+    "vi": "ẩm_thực_toàn_cầu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🏠": {
+    "vi": "không_gian_nhà_hàng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.436,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🚕": {
+    "vi": "giao_hàng_bằng_taxi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🚌": {
+    "vi": "giao_hàng_theo_lô",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "⛪": {
+    "vi": "không_gian_yên_tĩnh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "🎠": {
+    "vi": "không_khí_vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎡": {
+    "vi": "không_khí_lễ_hội",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎢": {
+    "vi": "trải_nghiệm_hồi_hộp",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🎪": {
+    "vi": "không_khí_náo_nhiệt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎭": {
+    "vi": "không_khí_nghệ_thuật",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎨": {
+    "vi": "trang_trí_đẹp_mắt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎫": {
+    "vi": "đặt_bàn_trước",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🎖": {
+    "vi": "chất_lượng_được_công_nhận",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🎗": {
+    "vi": "nhắc_nhở",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🎙": {
+    "vi": "phỏng_vấn_đầu_bếp",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🌠": {
+    "vi": "đặc_biệt_xuất_sắc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🌉": {
+    "vi": "cầu_đêm_lãng_mạn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌆": {
+    "vi": "nhà_hàng_chiều_hoàng_hôn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌇": {
+    "vi": "nhà_hàng_view_hoàng_hôn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🌄": {
+    "vi": "ăn_sáng_ngắm_bình_minh",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "⛺": {
+    "vi": "ăn_ngoài_trời",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "🏔": {
+    "vi": "nhà_hàng_không_khí_núi_rừng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏕": {
+    "vi": "ăn_uống_cắm_trại",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏖": {
+    "vi": "ăn_uống_bãi_biển",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏗": {
+    "vi": "đang_chuẩn_bị_khai_trương",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🏘": {
+    "vi": "khu_dân_cư",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🏙": {
+    "vi": "nhà_hàng_thành_phố",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏛": {
+    "vi": "nhà_hàng_phong_cách_cổ_điển",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏟": {
+    "vi": "ăn_uống_sân_vận_động",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🔴": {
+    "vi": "cảnh_báo",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.396,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "❌": {
+    "vi": "từ_chối_không_nhận",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.271,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "❗": {
+    "vi": "lưu_ý_quan_trọng",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.1,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "🔔": {
+    "vi": "thông_báo",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🔕": {
+    "vi": "tắt_thông_báo",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.2,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "📣": {
+    "vi": "quảng_bá_khuyến_mãi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "📢": {
+    "vi": "thông_báo_chung",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🛑": {
+    "vi": "dừng_hoạt_động",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.4,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "⛔": {
+    "vi": "khu_vực_cấm",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.485,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "☑": {
+    "vi": "đã_xác_nhận",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.101,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "♪": {
+    "vi": "nhạc_nền",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.534,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "♬": {
+    "vi": "âm_nhạc_sôi_động",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.245,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "☝": {
+    "vi": "lưu_ý_số_một",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.309,
+    "type": "symbol",
+    "domain": "service"
+  },
+  "♦": {
+    "vi": "đặc_biệt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.453,
+    "type": "symbol",
+    "domain": "food_quality"
+  },
+  "♣": {
+    "vi": "may_mắn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.342,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "🚬": {
+    "vi": "khu_vực_hút_thuốc",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.521,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🍝": {
+    "vi": "mì_spaghetti",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.117,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "👪": {
+    "vi": "ăn_cùng_gia_đình",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": -0.017,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🍭": {
+    "vi": "kẹo_mút",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🌂": {
+    "vi": "giao_hàng_trời_mưa",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🎯": {
+    "vi": "đúng_yêu_cầu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🎲": {
+    "vi": "bất_ngờ",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🎰": {
+    "vi": "may_rủi",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.1,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🎳": {
+    "vi": "giải_trí",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🎾": {
+    "vi": "không_khí_thể_thao",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "⛳": {
+    "vi": "không_gian_golf_sang_trọng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "🚵": {
+    "vi": "giao_hàng_vượt_địa_hình",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🚞": {
+    "vi": "tàu_đường_núi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🛫": {
+    "vi": "chuyến_đi_ẩm_thực",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🛬": {
+    "vi": "đến_nơi_ăn_uống",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "⛵": {
+    "vi": "nhà_hàng_thuyền",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "symbol",
+    "domain": "ambiance"
+  },
+  "🚢": {
+    "vi": "nhà_hàng_tàu_biển",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏰": {
+    "vi": "không_gian_lâu_đài_sang_trọng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🗼": {
+    "vi": "nhà_hàng_view_tháp",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🗽": {
+    "vi": "ẩm_thực_Mỹ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤗": {
+    "vi": "chào_đón_nồng_nhiệt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.7,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤔": {
+    "vi": "suy_nghĩ_chọn_món",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.1,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🤐": {
+    "vi": "giữ_bí_quyết_nấu_ăn",
+    "label": "negative",
+    "sentiment": "neutral",
+    "score": -0.1,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤑": {
+    "vi": "giá_hời",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "pricing"
+  },
+  "🤒": {
+    "vi": "lo_ngại_an_toàn_thực_phẩm",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.4,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤓": {
+    "vi": "thực_khách_sành_ăn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🤕": {
+    "vi": "ngộ_độc_thực_phẩm",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.4,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤘": {
+    "vi": "tuyệt_vời",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤙": {
+    "vi": "gọi_đặt_hàng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤚": {
+    "vi": "đợi_một_chút",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤛": {
+    "vi": "bắt_tay_hợp_tác",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤜": {
+    "vi": "bắt_tay_hợp_tác",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤝": {
+    "vi": "hợp_tác_tốt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤞": {
+    "vi": "hy_vọng_ngon",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🤣": {
+    "vi": "cười_lăn_lộn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.7,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🤤": {
+    "vi": "thèm_nhỏ_dãi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤦": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.2,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤧": {
+    "vi": "hắt_hơi",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.3,
+    "type": "emoji",
+    "domain": "general"
+  },
+  "🤩": {
+    "vi": "ấn_tượng_ngất_ngây",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.8,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤪": {
+    "vi": "vui_vẻ_điên_cuồng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🤫": {
+    "vi": "bí_quyết_gia_truyền",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.1,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤬": {
+    "vi": "cực_kỳ_tức_giận",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.7,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🤭": {
+    "vi": "ngạc_nhiên_thích_thú",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤮": {
+    "vi": "chất_lượng_tệ",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.7,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🤯": {
+    "vi": "choáng_ngợp",
+    "label": "negative",
+    "sentiment": "mixed",
+    "score": -0.1,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🥰": {
+    "vi": "yêu_thích_hết_lòng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.9,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🥱": {
+    "vi": "nhàm_chán",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.1,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🥲": {
+    "vi": "cảm_động",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🥳": {
+    "vi": "tiệc_tùng_vui_vẻ",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.8,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🥴": {
+    "vi": "say_mê_quá_độ",
+    "label": "negative",
+    "sentiment": "mixed",
+    "score": -0.2,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🥵": {
+    "vi": "quá_cay_nóng",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.1,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🥶": {
+    "vi": "lạnh_buốt",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.2,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🥺": {
+    "vi": "cầu_xin_thêm_món",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.1,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🙃": {
+    "vi": "hài_hước",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "food_experience"
+  },
+  "🤥": {
+    "vi": "quảng_cáo_sai_sự_thật",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.4,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🙄": {
+    "vi": "chán_ngán",
+    "label": "negative",
+    "sentiment": "negative",
+    "score": -0.3,
+    "type": "emoji",
+    "domain": "service"
+  },
+  "🌏": {
+    "vi": "ẩm_thực_châu_Á",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🌮": {
+    "vi": "taco",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🌯": {
+    "vi": "bánh_mì_cuốn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🥗": {
+    "vi": "salad_rau_tươi",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🥘": {
+    "vi": "chảo_thức_ăn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍛": {
+    "vi": "cà_ri_cơm",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍞": {
+    "vi": "bánh_mì",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🥐": {
+    "vi": "bánh_sừng_bò",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🥞": {
+    "vi": "bánh_pancake",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🧁": {
+    "vi": "bánh_cupcake",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍮": {
+    "vi": "bánh_flan",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🍯": {
+    "vi": "mật_ong",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🧃": {
+    "vi": "hộp_nước_ép",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🧉": {
+    "vi": "trà_mate",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🧊": {
+    "vi": "đá_viên",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.1,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐓": {
+    "vi": "gà",
+    "label": "neutral",
+    "sentiment": "neutral",
+    "score": 0.028,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐑": {
+    "vi": "thịt_cừu",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐐": {
+    "vi": "thịt_dê",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.3,
+    "type": "emoji",
+    "domain": "food_item"
+  },
+  "🐕": {
+    "vi": "thân_thiện_cún_cưng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🐈": {
+    "vi": "thân_thiện_mèo",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.5,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🦋": {
+    "vi": "trang_trí_đẹp_như_bướm",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.7,
+    "type": "emoji",
+    "domain": "ambiance"
+  },
+  "🏅": {
+    "vi": "huy_chương_chất_lượng",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.7,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🥇": {
+    "vi": "hạng_nhất_xuất_sắc",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.9,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🥈": {
+    "vi": "hạng_nhì_tốt",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.7,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "🥉": {
+    "vi": "hạng_ba_khá",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.6,
+    "type": "emoji",
+    "domain": "food_quality"
+  },
+  "📦": {
+    "vi": "đóng_gói",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🛒": {
+    "vi": "giỏ_hàng",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.2,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "🛍": {
+    "vi": "túi_đựng_đồ_ăn",
+    "label": "positive",
+    "sentiment": "positive",
+    "score": 0.4,
+    "type": "emoji",
+    "domain": "delivery"
+  },
+  "💳": {
+    "vi": "thanh_toán_thẻ",
+    "label": "positive",
+    "sentiment": "neutral",
+    "score": 0.1,
+    "type": "emoji",
+    "domain": "pricing"
+  }
+}

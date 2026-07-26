@@ -1,0 +1,1169 @@
+{
+  "ctrai": {
+    "vi": "con_trai"
+  },
+  "khôg": {
+    "vi": "không"
+  },
+  "bme": {
+    "vi": "bố_mẹ"
+  },
+  "cta": {
+    "vi": "chúng_ta"
+  },
+  "mih": {
+    "vi": "mình"
+  },
+  "mqh": {
+    "vi": "mối_quan_hệ"
+  },
+  "cgai": {
+    "vi": "con_gái"
+  },
+  "nhữg": {
+    "vi": "những"
+  },
+  "mng": {
+    "vi": "mọi_người"
+  },
+  "svtn": {
+    "vi": "sinh_viên_tình_nguyện"
+  },
+  "r": {
+    "vi": "rồi"
+  },
+  "qtam": {
+    "vi": "quan_tâm"
+  },
+  "thươg": {
+    "vi": "thương"
+  },
+  "qtâm": {
+    "vi": "quan_tâm"
+  },
+  "chug": {
+    "vi": "chung"
+  },
+  "trườg": {
+    "vi": "trường"
+  },
+  "thoy": {
+    "vi": "thôi"
+  },
+  "đki": {
+    "vi": "đăng_ký"
+  },
+  "atsm": {
+    "vi": "ảo_tưởng_sức_mạnh"
+  },
+  "ạk": {
+    "vi": "ạ"
+  },
+  "cv": {
+    "vi": "công_việc"
+  },
+  "vch": {
+    "vi": "vãi_chưởng"
+  },
+  "cùg": {
+    "vi": "cùng"
+  },
+  "pn": {
+    "vi": "bạn"
+  },
+  "pjt": {
+    "vi": "biết"
+  },
+  "thjk": {
+    "vi": "thích"
+  },
+  "keke": {
+    "vi": "ce_ce"
+  },
+  "ktra": {
+    "vi": "kiểm_tra"
+  },
+  "nek": {
+    "vi": "nè"
+  },
+  "cgái": {
+    "vi": "con_gái"
+  },
+  "nthe": {
+    "vi": "như_thế"
+  },
+  "chúg": {
+    "vi": "chúng"
+  },
+  "kái": {
+    "vi": "cái"
+  },
+  "tìh": {
+    "vi": "tình"
+  },
+  "phòg": {
+    "vi": "phòng"
+  },
+  "lòg": {
+    "vi": "lòng"
+  },
+  "từg": {
+    "vi": "từng"
+  },
+  "rằg": {
+    "vi": "rằng"
+  },
+  "sốg": {
+    "vi": "sống"
+  },
+  "thuj": {
+    "vi": "thôi"
+  },
+  "thuơng": {
+    "vi": "thương"
+  },
+  "càg": {
+    "vi": "càng"
+  },
+  "đky": {
+    "vi": "đăng_ký"
+  },
+  "bằg": {
+    "vi": "bằng"
+  },
+  "sviên": {
+    "vi": "sinh_viên"
+  },
+  "ák": {
+    "vi": "á"
+  },
+  "đág": {
+    "vi": "đáng"
+  },
+  "nvay": {
+    "vi": "như_vậy"
+  },
+  "nhjeu": {
+    "vi": "nhiều"
+  },
+  "xg": {
+    "vi": "xuống"
+  },
+  "zồi": {
+    "vi": "rồi"
+  },
+  "trag": {
+    "vi": "trang"
+  },
+  "zữ": {
+    "vi": "dữ"
+  },
+  "atrai": {
+    "vi": "anh_trai"
+  },
+  "kte": {
+    "vi": "kinh_tế"
+  },
+  "độg": {
+    "vi": "động"
+  },
+  "lmht": {
+    "vi": "liên_minh_huyền_thoại"
+  },
+  "gắg": {
+    "vi": "gắng"
+  },
+  "đzai": {
+    "vi": "đẹp_trai"
+  },
+  "thgian": {
+    "vi": "thời_gian"
+  },
+  "plz": {
+    "vi": "pờ_ly"
+  },
+  "đồg": {
+    "vi": "đồng"
+  },
+  "btrai": {
+    "vi": "bạn_trai"
+  },
+  "nthê": {
+    "vi": "như_thế"
+  },
+  "hìhì": {
+    "vi": "hì_hì"
+  },
+  "vọg": {
+    "vi": "vọng"
+  },
+  "hihe": {
+    "vi": "hi_he"
+  },
+  "đôg": {
+    "vi": "đông"
+  },
+  "răg": {
+    "vi": "răng"
+  },
+  "thườg": {
+    "vi": "thường"
+  },
+  "tcảm": {
+    "vi": "tình_cảm"
+  },
+  "đứg": {
+    "vi": "đứng"
+  },
+  "ksao": {
+    "vi": "không_sao"
+  },
+  "dz": {
+    "vi": "đẹp_trai"
+  },
+  "hjxhjx": {
+    "vi": "hix_hix"
+  },
+  "cmày": {
+    "vi": "chúng_mày"
+  },
+  "xuốg": {
+    "vi": "xuống"
+  },
+  "nkư": {
+    "vi": "như"
+  },
+  "lquan": {
+    "vi": "liên_quan"
+  },
+  "tiếg": {
+    "vi": "tiếng"
+  },
+  "hajz": {
+    "vi": "hai"
+  },
+  "xih": {
+    "vi": "xinh"
+  },
+  "hìh": {
+    "vi": "hình"
+  },
+  "thàh": {
+    "vi": "thành"
+  },
+  "ngke": {
+    "vi": "nghe"
+  },
+  "dzậy": {
+    "vi": "dậy"
+  },
+  "teencode": {
+    "vi": "tin_cốt"
+  },
+  "tnào": {
+    "vi": "thế_nào"
+  },
+  "tưởg": {
+    "vi": "tưởng"
+  },
+  "ctrinh": {
+    "vi": "chương_trình"
+  },
+  "phog": {
+    "vi": "phong"
+  },
+  "hôg": {
+    "vi": "không"
+  },
+  "zìa": {
+    "vi": "gì"
+  },
+  "kũg": {
+    "vi": "cũng"
+  },
+  "ntnao": {
+    "vi": "như_thế_nào"
+  },
+  "trọg": {
+    "vi": "trọng"
+  },
+  "nthế": {
+    "vi": "như_thế"
+  },
+  "năg": {
+    "vi": "năng"
+  },
+  "ngđó": {
+    "vi": "người_đó"
+  },
+  "lquen": {
+    "vi": "làm_quen"
+  },
+  "riêg": {
+    "vi": "riêng"
+  },
+  "ngag": {
+    "vi": "ngang"
+  },
+  "hêhê": {
+    "vi": "hê_hê"
+  },
+  "bnhiu": {
+    "vi": "bao_nhiêu"
+  },
+  "ngốk": {
+    "vi": "ngốc"
+  },
+  "kậu": {
+    "vi": "cậu"
+  },
+  "highland": {
+    "vi": "hai_lừn"
+  },
+  "kqua": {
+    "vi": "kết_quả"
+  },
+  "htrc": {
+    "vi": "hôm_trước"
+  },
+  "địh": {
+    "vi": "định"
+  },
+  "gđình": {
+    "vi": "gia_đinh"
+  },
+  "giốg": {
+    "vi": "giống"
+  },
+  "csống": {
+    "vi": "cuộc_sống"
+  },
+  "xug": {
+    "vi": "xùng"
+  },
+  "zùi": {
+    "vi": "rồi"
+  },
+  "bnhiêu": {
+    "vi": "bao_nhiêu"
+  },
+  "cbị": {
+    "vi": "chuẩn_bị"
+  },
+  "kòn": {
+    "vi": "còn"
+  },
+  "buôg": {
+    "vi": "buông"
+  },
+  "csong": {
+    "vi": "cuộc_sống"
+  },
+  "chàg": {
+    "vi": "chàng"
+  },
+  "chăg": {
+    "vi": "chăng"
+  },
+  "ngàh": {
+    "vi": "ngành"
+  },
+  "llac": {
+    "vi": "liên_lạc"
+  },
+  "nkưng": {
+    "vi": "nhưng"
+  },
+  "nắg": {
+    "vi": "nắng"
+  },
+  "tíh": {
+    "vi": "tính"
+  },
+  "khoảg": {
+    "vi": "khoảng"
+  },
+  "thík": {
+    "vi": "thích"
+  },
+  "ngđo": {
+    "vi": "người_đó"
+  },
+  "ngkhác": {
+    "vi": "người_khác"
+  },
+  "thẳg": {
+    "vi": "thẳng"
+  },
+  "kảm": {
+    "vi": "cảm"
+  },
+  "dàh": {
+    "vi": "dành"
+  },
+  "júp": {
+    "vi": "giúp"
+  },
+  "lặg": {
+    "vi": "lặng"
+  },
+  "vđê": {
+    "vi": "vấn_đề"
+  },
+  "bbè": {
+    "vi": "bạn_bè"
+  },
+  "bóg": {
+    "vi": "bóng"
+  },
+  "dky": {
+    "vi": "đăng_ký"
+  },
+  "dòg": {
+    "vi": "dòng"
+  },
+  "uốg": {
+    "vi": "uống"
+  },
+  "tyêu": {
+    "vi": "tình_yêu"
+  },
+  "snvv": {
+    "vi": "sinh_nhật_vui_vẻ"
+  },
+  "đthoại": {
+    "vi": "điện_thoại"
+  },
+  "qhe": {
+    "vi": "quan_hệ"
+  },
+  "cviec": {
+    "vi": "công_việc"
+  },
+  "tượg": {
+    "vi": "tượng"
+  },
+  "qà": {
+    "vi": "quà"
+  },
+  "thjc": {
+    "vi": "thích"
+  },
+  "nhưq": {
+    "vi": "nhưng"
+  },
+  "cđời": {
+    "vi": "cuộc_đời"
+  },
+  "bthường": {
+    "vi": "bình_thường"
+  },
+  "zà": {
+    "vi": "già"
+  },
+  "đáh": {
+    "vi": "đánh"
+  },
+  "xloi": {
+    "vi": "xin_lỗi"
+  },
+  "zám": {
+    "vi": "dám"
+  },
+  "qtrọng": {
+    "vi": "quan_trọng"
+  },
+  "bìh": {
+    "vi": "bình"
+  },
+  "lzi": {
+    "vi": "làm_gì"
+  },
+  "qhệ": {
+    "vi": "quan_hệ"
+  },
+  "đhbkhn": {
+    "vi": "đại_học_bách_khoa_hà_nội"
+  },
+  "hajzz": {
+    "vi": "hai"
+  },
+  "kủa": {
+    "vi": "của"
+  },
+  "lz": {
+    "vi": "làm_gì"
+  },
+  "đhkhtn": {
+    "vi": "đại_học_khoa_học_tự_nhiên"
+  },
+  "đóg": {
+    "vi": "đóng"
+  },
+  "cka": {
+    "vi": "cha"
+  },
+  "lgi": {
+    "vi": "làm_gì"
+  },
+  "nvậy": {
+    "vi": "như_vậy"
+  },
+  "qả": {
+    "vi": "quả"
+  },
+  "đkiện": {
+    "vi": "điều_kiện"
+  },
+  "nèk": {
+    "vi": "nè"
+  },
+  "tlai": {
+    "vi": "tương_lai"
+  },
+  "bsĩ": {
+    "vi": "bác_sĩ"
+  },
+  "hkì": {
+    "vi": "học_kỳ"
+  },
+  "đcsvn": {
+    "vi": "đảng_cộng_sản_việt_nam"
+  },
+  "vde": {
+    "vi": "vấn_đề"
+  },
+  "chta": {
+    "vi": "chúng_ta"
+  },
+  "òy": {
+    "vi": "rồi"
+  },
+  "ltinh": {
+    "vi": "linh_tinh"
+  },
+  "ngyeu": {
+    "vi": "người_yêu"
+  },
+  "đthoai": {
+    "vi": "điện_thoại"
+  },
+  "snghĩ": {
+    "vi": "suy_nghĩ"
+  },
+  "nặg": {
+    "vi": "nặng"
+  },
+  "họk": {
+    "vi": "học"
+  },
+  "dừg": {
+    "vi": "dừng"
+  },
+  "hphúc": {
+    "vi": "hạnh_phúc"
+  },
+  "hiha": {
+    "vi": "hi_ha"
+  },
+  "wtâm": {
+    "vi": "quan_tâm"
+  },
+  "thíck": {
+    "vi": "thích"
+  },
+  "chuện": {
+    "vi": "chuyện"
+  },
+  "lạh": {
+    "vi": "lạnh"
+  },
+  "fây": {
+    "vi": "phây"
+  },
+  "ntnày": {
+    "vi": "như_thế_này"
+  },
+  "lúk": {
+    "vi": "lúc"
+  },
+  "haj": {
+    "vi": "hai"
+  },
+  "ngía": {
+    "vi": "nghía"
+  },
+  "mớj": {
+    "vi": "mới"
+  },
+  "hsơ": {
+    "vi": "hồ_sơ"
+  },
+  "ctraj": {
+    "vi": "con_trai"
+  },
+  "nyêu": {
+    "vi": "người_yêu"
+  },
+  "điiiiiii": {
+    "vi": "đi"
+  },
+  "rồii": {
+    "vi": "rồi"
+  },
+  "c": {
+    "vi": "chị"
+  },
+  "kih": {
+    "vi": "kinh"
+  },
+  "kb": {
+    "vi": "kết_bạn"
+  },
+  "hixxx": {
+    "vi": "hích"
+  },
+  "dthương": {
+    "vi": "dễ_thương"
+  },
+  "nhiềuuu": {
+    "vi": "nhiều"
+  },
+  "ctrình": {
+    "vi": "chương_trình"
+  },
+  "mìnk": {
+    "vi": "mình"
+  },
+  "mjh": {
+    "vi": "mình"
+  },
+  "ng": {
+    "vi": "người"
+  },
+  "vc": {
+    "vi": "vợ_chồng"
+  },
+  "uhm": {
+    "vi": "ừm"
+  },
+  "thỳ": {
+    "vi": "thì"
+  },
+  "nyc": {
+    "vi": "người_yêu_cũ"
+  },
+  "tks": {
+    "vi": "thanks"
+  },
+  "nàg": {
+    "vi": "nàng"
+  },
+  "thôii": {
+    "vi": "thôi"
+  },
+  "đjên": {
+    "vi": "điên"
+  },
+  "bgái": {
+    "vi": "bạn_gái"
+  },
+  "vớii": {
+    "vi": "với"
+  },
+  "xink": {
+    "vi": "xinh"
+  },
+  "hđộng": {
+    "vi": "hành_động"
+  },
+  "đhọc": {
+    "vi": "đại_học"
+  },
+  "mk": {
+    "vi": "mình"
+  },
+  "bn": {
+    "vi": "bạn"
+  },
+  "thik": {
+    "vi": "thích"
+  },
+  "cj": {
+    "vi": "chị"
+  },
+  "mn": {
+    "vi": "mọi_người"
+  },
+  "nguoi": {
+    "vi": "người"
+  },
+  "nógn": {
+    "vi": "nóng"
+  },
+  "hok": {
+    "vi": "không"
+  },
+  "ko": {
+    "vi": "không"
+  },
+  "bik": {
+    "vi": "biết"
+  },
+  "vs": {
+    "vi": "với"
+  },
+  "cx": {
+    "vi": "cũng"
+  },
+  "mik": {
+    "vi": "mình"
+  },
+  "wtf": {
+    "vi": "what_the_fuck"
+  },
+  "đc": {
+    "vi": "được"
+  },
+  "cmt": {
+    "vi": "comment"
+  },
+  "ck": {
+    "vi": "chồng"
+  },
+  "chk": {
+    "vi": "chồng"
+  },
+  "ngta": {
+    "vi": "người_ta"
+  },
+  "gđ": {
+    "vi": "gia_đình"
+  },
+  "oh": {
+    "vi": "ồ"
+  },
+  "vk": {
+    "vi": "vợ"
+  },
+  "ctác": {
+    "vi": "công_tác"
+  },
+  "sg": {
+    "vi": "sài_gòn"
+  },
+  "ae": {
+    "vi": "anh_em"
+  },
+  "ah": {
+    "vi": "à"
+  },
+  "ạh": {
+    "vi": "ạ"
+  },
+  "rì": {
+    "vi": "gì"
+  },
+  "ms": {
+    "vi": "mới"
+  },
+  "vn": {
+    "vi": "việt_nam"
+  },
+  "nhaa": {
+    "vi": "nha"
+  },
+  "cũg": {
+    "vi": "cũng"
+  },
+  "đag": {
+    "vi": "đang"
+  },
+  "ơiii": {
+    "vi": "ơi"
+  },
+  "hic": {
+    "vi": "hích"
+  },
+  "ace": {
+    "vi": "anh_chị_em"
+  },
+  "àk": {
+    "vi": "à"
+  },
+  "uh": {
+    "vi": "ừ"
+  },
+  "cmm": {
+    "vi": "con_mẹ_mày"
+  },
+  "cmnr": {
+    "vi": "con_mẹ_nó_rồi"
+  },
+  "ơiiii": {
+    "vi": "ơi"
+  },
+  "hnay": {
+    "vi": "hôm_nay"
+  },
+  "ukm": {
+    "vi": "ừm"
+  },
+  "tq": {
+    "vi": "trung_quốc"
+  },
+  "ctr": {
+    "vi": "chương_trình"
+  },
+  "đii": {
+    "vi": "đi"
+  },
+  "nch": {
+    "vi": "nói_chuyện"
+  },
+  "trieu": {
+    "vi": "triệu"
+  },
+  "hahah": {
+    "vi": "ha_ha"
+  },
+  "nta": {
+    "vi": "người_ta"
+  },
+  "ngèo": {
+    "vi": "nghèo"
+  },
+  "kêh": {
+    "vi": "kênh"
+  },
+  "ak": {
+    "vi": "à"
+  },
+  "ad": {
+    "vi": "admin"
+  },
+  "j": {
+    "vi": "gì"
+  },
+  "ny": {
+    "vi": "người_yêu"
+  },
+  "dc": {
+    "vi": "được"
+  },
+  "qc": {
+    "vi": "quảng_cáo"
+  },
+  "baoh": {
+    "vi": "bao_giờ"
+  },
+  "zui": {
+    "vi": "vui"
+  },
+  "zẻ": {
+    "vi": "vẻ"
+  },
+  "tym": {
+    "vi": "tim"
+  },
+  "aye": {
+    "vi": "anh_yêu_em"
+  },
+  "eya": {
+    "vi": "em_yêu_anh"
+  },
+  "fb": {
+    "vi": "facebook"
+  },
+  "insta": {
+    "vi": "instagram"
+  },
+  "z": {
+    "vi": "vậy"
+  },
+  "thich": {
+    "vi": "thích"
+  },
+  "vcl": {
+    "vi": "vờ_cờ_lờ"
+  },
+  "đt": {
+    "vi": "điện_thoại"
+  },
+  "acc": {
+    "vi": "account"
+  },
+  "lol": {
+    "vi": "lồn"
+  },
+  "loz": {
+    "vi": "lồn"
+  },
+  "lozz": {
+    "vi": "lồn"
+  },
+  "trc": {
+    "vi": "trước"
+  },
+  "chs": {
+    "vi": "chẳng_hiểu_sao"
+  },
+  "đhs": {
+    "vi": "đéo_hiểu_sao"
+  },
+  "qá": {
+    "vi": "quá"
+  },
+  "ntn": {
+    "vi": "như_thế_nào"
+  },
+  "wá": {
+    "vi": "quá"
+  },
+  "zậy": {
+    "vi": "vậy"
+  },
+  "zô": {
+    "vi": "dô"
+  },
+  "ytb": {
+    "vi": "youtube"
+  },
+  "vđ": {
+    "vi": "vãi_đái"
+  },
+  "vchg": {
+    "vi": "vãi_chưởng"
+  },
+  "sml": {
+    "vi": "sấp_mặt_lờ"
+  },
+  "xl": {
+    "vi": "xin_lỗi"
+  },
+  "cmn": {
+    "vi": "con_mẹ_nó"
+  },
+  "face": {
+    "vi": "facebook"
+  },
+  "hjhj": {
+    "vi": "hi_hi"
+  },
+  "vv": {
+    "vi": "vui_vẻ"
+  },
+  "ns": {
+    "vi": "nói"
+  },
+  "iu": {
+    "vi": "yêu"
+  },
+  "vcđ": {
+    "vi": "vãi_cả_đái"
+  },
+  "in4": {
+    "vi": "info"
+  },
+  "qq": {
+    "vi": "quằn_què"
+  },
+  "sub": {
+    "vi": "subcribe"
+  },
+  "kh": {
+    "vi": "không"
+  },
+  "zạ": {
+    "vi": "vậy"
+  },
+  "oy": {
+    "vi": "rồi"
+  },
+  "jo": {
+    "vi": "giờ"
+  },
+  "clmm": {
+    "vi": "cái_lồn_mẹ_mày"
+  },
+  "bsvv": {
+    "vi": "buổi_sáng_vui_vẻ"
+  },
+  "troai": {
+    "vi": "trai"
+  },
+  "wa": {
+    "vi": "quá"
+  },
+  "hjx": {
+    "vi": "hix"
+  },
+  "e": {
+    "vi": "em"
+  },
+  "ik": {
+    "vi": "ý"
+  },
+  "ji": {
+    "vi": "gì"
+  },
+  "ce": {
+    "vi": "chị_em"
+  },
+  "lm": {
+    "vi": "làm"
+  },
+  "đz": {
+    "vi": "đẹp_giai"
+  },
+  "sr": {
+    "vi": "sorry"
+  },
+  "ib": {
+    "vi": "inbox"
+  },
+  "hoy": {
+    "vi": "thôi"
+  },
+  "đbh": {
+    "vi": "đéo_bao_giờ"
+  },
+  "k": {
+    "vi": "không"
+  },
+  "vd": {
+    "vi": "ví_dụ"
+  },
+  "a": {
+    "vi": "anh"
+  },
+  "cũng z": {
+    "vi": "cũng_vậy"
+  },
+  "z là": {
+    "vi": "vậy_là"
+  },
+  "unf": {
+    "vi": "unfriend"
+  },
+  "my fen": {
+    "vi": "my_friend"
+  },
+  "fen": {
+    "vi": "friend"
+  },
+  "cty": {
+    "vi": "công_ty"
+  },
+  "on lai": {
+    "vi": "online"
+  },
+  "u hai ba": {
+    "vi": "u23"
+  },
+  "kô": {
+    "vi": "không"
+  },
+  "đtqg": {
+    "vi": "đội_tuyển_quốc_gia"
+  },
+  "hqua": {
+    "vi": "hôm_qua"
+  },
+  "xog": {
+    "vi": "xong"
+  },
+  "uk": {
+    "vi": "ừ"
+  },
+  "nhoé": {
+    "vi": "nhé"
+  },
+  "biet": {
+    "vi": "biết"
+  },
+  "quí": {
+    "vi": "quý"
+  },
+  "stk": {
+    "vi": "số_tài_khoản"
+  },
+  "hong kong": {
+    "vi": "hồng_kông"
+  },
+  "đươc": {
+    "vi": "được"
+  },
+  "nghành": {
+    "vi": "ngành"
+  },
+  "nvqs": {
+    "vi": "nghĩa_vụ_quân_sự"
+  },
+  "ngừoi": {
+    "vi": "người"
+  },
+  "trog": {
+    "vi": "trong"
+  },
+  "tgian": {
+    "vi": "thời_gian"
+  },
+  "biêt": {
+    "vi": "biết"
+  },
+  "fải": {
+    "vi": "phải"
+  },
+  "nguời": {
+    "vi": "người"
+  },
+  "tđn": {
+    "vi": "thế_đéo_nào"
+  },
+  "bth": {
+    "vi": "bình_thường"
+  },
+  "tgdd": {
+    "vi": "thế_giới_di_động"
+  },
+  "khg": {
+    "vi": "không"
+  },
+  "nhưg": {
+    "vi": "nhưng"
+  },
+  "thpt": {
+    "vi": "trung_học_phổ_thông"
+  },
+  "thằg": {
+    "vi": "thằng"
+  },
+  "đuợc": {
+    "vi": "được"
+  },
+  "àh": {
+    "vi": "à"
+  },
+  "ku": {
+    "vi": "cu"
+  },
+  "thým": {
+    "vi": "thím"
+  },
+  "onl": {
+    "vi": "online"
+  },
+  "zú": {
+    "vi": "vú"
+  },
+  "cmnd": {
+    "vi": "chứng_minh_nhân_dân"
+  },
+  "sđt": {
+    "vi": "số_điện_thoại"
+  },
+  "klq": {
+    "vi": "không_liên_quan"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "negation_words": [
+        "không",
+        "ko",
+        "k",
+        "kh",
+        "kg",
+        "hok",
+        "hông",
+        "hong",
+        "hem",
+        "hẻm",
+        "chưa",
+        "chẳng",
+        "chả",
+        "đừng"
+    ],
+
+    "skip_tokens": [
+        "chỉ",
+        "phải",
+        "có",
+        "còn",
+        "là",
+        "những",
+        "mà",
+        "quá",
+        "rất",
+        "được",
+        "nữa",
+        "thể",
+        "đến",
+        "bao",
+        "nhiêu",
+        "ít",
+        "nhiều",
+        "hề",
+        "hơi",
+        "lắm",
+        "thì",
+        "đã",
+        "đang",
+        "sẽ",
+        "vẫn",
+        "cũng"
+    ]
+}

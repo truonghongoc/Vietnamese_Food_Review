@@ -1,0 +1,2517 @@
+{
+  "order": {
+    "vi": "đặt_món/gọi_món",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "menu": {
+    "vi": "thực_đơn",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "full": {
+    "vi": "đầy_đủ",
+    "domain": "food",
+    "type": "dish"
+  },
+   "pate": {
+    "vi": "pa_tê",
+    "domain": "food",
+    "type": "dish"
+  },
+  "deco": {
+    "vi": "trang_trí",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "bill": {
+    "vi": "hóa_đơn",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "check": {
+    "vi": "tính_tiền",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "tip": {
+    "vi": "tiền_bo",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "combo": {
+    "vi": "gói_kết_hợp",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "set": {
+    "vi": "phần_ăn",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "booking": {
+    "vi": "đặt_bàn",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "table": {
+    "vi": "bàn",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "seat": {
+    "vi": "chỗ_ngồi",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "wait": {
+    "vi": "chờ_đợi",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "queue": {
+    "vi": "xếp_hàng",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "line": {
+    "vi": "hàng",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "service": {
+    "vi": "dịch_vụ",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "staff": {
+    "vi": "nhân_viên",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "waiter": {
+    "vi": "bồi_bàn_nam",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "waitress": {
+    "vi": "bồi_bàn_nữ",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "chef": {
+    "vi": "đầu_bếp",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "manager": {
+    "vi": "quản_lý",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "recommend": {
+    "vi": "gợi_ý",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "review": {
+    "vi": "đánh_giá",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "feedback": {
+    "vi": "phản_hồi",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "rating": {
+    "vi": "xếp_hạng",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "star": {
+    "vi": "sao",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "delivery": {
+    "vi": "giao_hàng",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "takeout": {
+    "vi": "mang_đi",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "takeaway": {
+    "vi": "mang_về",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "dine-in": {
+    "vi": "ăn_tại_quán",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "book": {
+    "vi": "đặt_trước",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "cancel": {
+    "vi": "hủy",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "receipt": {
+    "vi": "biên_lai",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "charge": {
+    "vi": "phí",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "tax": {
+    "vi": "thuế",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "vat": {
+    "vi": "thuế_GTGT",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "discount": {
+    "vi": "giảm_giá",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "voucher": {
+    "vi": "phiếu_giảm_giá",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "coupon": {
+    "vi": "phiếu_quà_tặng",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "free": {
+    "vi": "miễn_phí",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "extra": {
+    "vi": "thêm",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "size": {
+    "vi": "kích_cỡ",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "small": {
+    "vi": "nhỏ",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "medium": {
+    "vi": "vừa",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "large": {
+    "vi": "lớn",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "regular": {
+    "vi": "thường",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "upgrade": {
+    "vi": "nâng_cấp",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "portion": {
+    "vi": "khẩu_phần",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "slice": {
+    "vi": "lát/miếng",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "piece": {
+    "vi": "mẩu/miếng",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "bowl": {
+    "vi": "tô",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "plate": {
+    "vi": "đĩa",
+    "domain": "restaurant",
+    "type": "service"
+  },
+  "burger": {
+    "vi": "bánh_hamburger",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pizza": {
+    "vi": "bánh_pizza",
+    "domain": "food",
+    "type": "dish"
+  },
+  "steak": {
+    "vi": "bít_tết",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pasta": {
+    "vi": "mì_ý",
+    "domain": "food",
+    "type": "dish"
+  },
+  "salad": {
+    "vi": "rau_trộn",
+    "domain": "food",
+    "type": "dish"
+  },
+  "soup": {
+    "vi": "súp",
+    "domain": "food",
+    "type": "dish"
+  },
+  "bread": {
+    "vi": "bánh_mì",
+    "domain": "food",
+    "type": "dish"
+  },
+  "sandwich": {
+    "vi": "bánh_kẹp",
+    "domain": "food",
+    "type": "dish"
+  },
+  "hotdog": {
+    "vi": "xúc_xúc_kẹp",
+    "domain": "food",
+    "type": "dish"
+  },
+  "taco": {
+    "vi": "bánh_taco",
+    "domain": "food",
+    "type": "dish"
+  },
+  "sushi": {
+    "vi": "cơm_cuộn",
+    "domain": "food",
+    "type": "dish"
+  },
+  "sashimi": {
+    "vi": "gỏi_cá",
+    "domain": "food",
+    "type": "dish"
+  },
+  "noodle": {
+    "vi": "mì",
+    "domain": "food",
+    "type": "dish"
+  },
+  "rice": {
+    "vi": "cơm",
+    "domain": "food",
+    "type": "dish"
+  },
+  "dimsum": {
+    "vi": "điểm_sấm",
+    "domain": "food",
+    "type": "dish"
+  },
+  "dumpling": {
+    "vi": "bánh_bao/há_cảo",
+    "domain": "food",
+    "type": "dish"
+  },
+  "curry": {
+    "vi": "cà_ri",
+    "domain": "food",
+    "type": "dish"
+  },
+  "bbq": {
+    "vi": "đồ_nướng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "grill": {
+    "vi": "món_nướng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "roast": {
+    "vi": "món_quay",
+    "domain": "food",
+    "type": "dish"
+  },
+  "fry": {
+    "vi": "món_chiên",
+    "domain": "food",
+    "type": "dish"
+  },
+  "snack": {
+    "vi": "đồ_ăn_vặt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "chip": {
+    "vi": "khoai_tây_chiên",
+    "domain": "food",
+    "type": "dish"
+  },
+  "crisp": {
+    "vi": "bim_bim",
+    "domain": "food",
+    "type": "dish"
+  },
+  "cake": {
+    "vi": "bánh_ngọt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pie": {
+    "vi": "bánh_nướng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "tart": {
+    "vi": "bánh_tart",
+    "domain": "food",
+    "type": "dish"
+  },
+  "cookie": {
+    "vi": "bánh_quy",
+    "domain": "food",
+    "type": "dish"
+  },
+  "dessert": {
+    "vi": "tráng_miệng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "ice-cream": {
+    "vi": "kem",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pudding": {
+    "vi": "bánh_flan",
+    "domain": "food",
+    "type": "dish"
+  },
+  "waffle": {
+    "vi": "bánh_tổ_ong",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pancake": {
+    "vi": "bánh_xèo_ngọt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "crepe": {
+    "vi": "bánh_crepe",
+    "domain": "food",
+    "type": "dish"
+  },
+  "yogurt": {
+    "vi": "sữa_chua",
+    "domain": "food",
+    "type": "dish"
+  },
+  "muffin": {
+    "vi": "bánh_xốp",
+    "domain": "food",
+    "type": "dish"
+  },
+  "cupcake": {
+    "vi": "bánh_nướng_nhỏ",
+    "domain": "food",
+    "type": "dish"
+  },
+  "donut": {
+    "vi": "bánh_vòng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "croissant": {
+    "vi": "bánh_sừng_bò",
+    "domain": "food",
+    "type": "dish"
+  },
+  "toast": {
+    "vi": "bánh_mì_nướng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "meat": {
+    "vi": "thịt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "beef": {
+    "vi": "thịt_bò",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pork": {
+    "vi": "thịt_heo",
+    "domain": "food",
+    "type": "dish"
+  },
+  "chicken": {
+    "vi": "thịt_gà",
+    "domain": "food",
+    "type": "dish"
+  },
+  "fish": {
+    "vi": "cá",
+    "domain": "food",
+    "type": "dish"
+  },
+  "salmon": {
+    "vi": "cá_hồi",
+    "domain": "food",
+    "type": "dish"
+  },
+  "tuna": {
+    "vi": "cá_ngừ",
+    "domain": "food",
+    "type": "dish"
+  },
+  "shrimp": {
+    "vi": "tôm",
+    "domain": "food",
+    "type": "dish"
+  },
+  "crab": {
+    "vi": "cua",
+    "domain": "food",
+    "type": "dish"
+  },
+  "squid": {
+    "vi": "mực",
+    "domain": "food",
+    "type": "dish"
+  },
+  "octopus": {
+    "vi": "bạch_tuộc",
+    "domain": "food",
+    "type": "dish"
+  },
+  "lamb": {
+    "vi": "thịt_cừu",
+    "domain": "food",
+    "type": "dish"
+  },
+  "duck": {
+    "vi": "thịt_vịt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "tofu": {
+    "vi": "đậu_hũ",
+    "domain": "food",
+    "type": "dish"
+  },
+  "mushroom": {
+    "vi": "nấm",
+    "domain": "food",
+    "type": "dish"
+  },
+  "tomato": {
+    "vi": "cà_chua",
+    "domain": "food",
+    "type": "dish"
+  },
+  "potato": {
+    "vi": "khoai_tây",
+    "domain": "food",
+    "type": "dish"
+  },
+  "onion": {
+    "vi": "hành_tây",
+    "domain": "food",
+    "type": "dish"
+  },
+  "garlic": {
+    "vi": "tỏi",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pepper": {
+    "vi": "tiêu/ớt_chuông",
+    "domain": "food",
+    "type": "dish"
+  },
+  "chili": {
+    "vi": "ớt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "corn": {
+    "vi": "bắp",
+    "domain": "food",
+    "type": "dish"
+  },
+  "bean": {
+    "vi": "đậu",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pea": {
+    "vi": "đậu_hà_lan",
+    "domain": "food",
+    "type": "dish"
+  },
+  "carrot": {
+    "vi": "cà_rốt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "cabbage": {
+    "vi": "bắp_cải",
+    "domain": "food",
+    "type": "dish"
+  },
+  "lettuce": {
+    "vi": "xà_lách",
+    "domain": "food",
+    "type": "dish"
+  },
+  "cucumber": {
+    "vi": "dưa_leo",
+    "domain": "food",
+    "type": "dish"
+  },
+  "avocado": {
+    "vi": "bơ",
+    "domain": "food",
+    "type": "dish"
+  },
+  "olive": {
+    "vi": "ô_liu",
+    "domain": "food",
+    "type": "dish"
+  },
+  "lemon": {
+    "vi": "chanh_vàng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "lime": {
+    "vi": "chanh_xanh",
+    "domain": "food",
+    "type": "dish"
+  },
+  "apple": {
+    "vi": "táo",
+    "domain": "food",
+    "type": "dish"
+  },
+  "banana": {
+    "vi": "chuối",
+    "domain": "food",
+    "type": "dish"
+  },
+  "orange": {
+    "vi": "cam",
+    "domain": "food",
+    "type": "dish"
+  },
+  "grape": {
+    "vi": "nho",
+    "domain": "food",
+    "type": "dish"
+  },
+  "berry": {
+    "vi": "quả_mọng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "strawberry": {
+    "vi": "dâu_tây",
+    "domain": "food",
+    "type": "dish"
+  },
+  "mango": {
+    "vi": "xoài",
+    "domain": "food",
+    "type": "dish"
+  },
+  "coconut": {
+    "vi": "dừa",
+    "domain": "food",
+    "type": "dish"
+  },
+  "pineapple": {
+    "vi": "thơm",
+    "domain": "food",
+    "type": "dish"
+  },
+  "watermelon": {
+    "vi": "dưa_hấu",
+    "domain": "food",
+    "type": "dish"
+  },
+  "melon": {
+    "vi": "dưa_lưới",
+    "domain": "food",
+    "type": "dish"
+  },
+  "peach": {
+    "vi": "đào",
+    "domain": "food",
+    "type": "dish"
+  },
+  "cherry": {
+    "vi": "anh_đào",
+    "domain": "food",
+    "type": "dish"
+  },
+  "nut": {
+    "vi": "hạt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "peanut": {
+    "vi": "đậu_phộng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "almond": {
+    "vi": "hạnh_nhân",
+    "domain": "food",
+    "type": "dish"
+  },
+  "walnut": {
+    "vi": "ốc_chó",
+    "domain": "food",
+    "type": "dish"
+  },
+  "bacon": {
+    "vi": "thịt_xông_khói",
+    "domain": "food",
+    "type": "dish"
+  },
+  "ham": {
+    "vi": "giăm_bông",
+    "domain": "food",
+    "type": "dish"
+  },
+  "sausage": {
+    "vi": "xúc_xích",
+    "domain": "food",
+    "type": "dish"
+  },
+  "egg": {
+    "vi": "trứng",
+    "domain": "food",
+    "type": "dish"
+  },
+  "cheese": {
+    "vi": "phô_mai",
+    "domain": "food",
+    "type": "dish"
+  },
+  "butter": {
+    "vi": "bơ",
+    "domain": "food",
+    "type": "dish"
+  },
+  "jam": {
+    "vi": "mứt",
+    "domain": "food",
+    "type": "dish"
+  },
+  "honey": {
+    "vi": "mật_ong",
+    "domain": "food",
+    "type": "dish"
+  },
+  "seafood": {
+    "vi": "hải_sản",
+    "domain": "food",
+    "type": "dish"
+  },
+  "veggie": {
+    "vi": "rau_củ",
+    "domain": "food",
+    "type": "dish"
+  },
+  "fruit": {
+    "vi": "trái_cây",
+    "domain": "food",
+    "type": "dish"
+  },
+  "water": {
+    "vi": "nước",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "ice": {
+    "vi": "đá",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "coffee": {
+    "vi": "cà_phê",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "tea": {
+    "vi": "trà",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "milk": {
+    "vi": "sữa",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "juice": {
+    "vi": "nước_ép",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "soda": {
+    "vi": "nước_có_ga",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "coke": {
+    "vi": "coca",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "pepsi": {
+    "vi": "pepsi",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "sprite": {
+    "vi": "sprite",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "fanta": {
+    "vi": "fanta",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "smoothie": {
+    "vi": "sinh_tố",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "shake": {
+    "vi": "sữa_lắc",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "frappe": {
+    "vi": "thức_uống_đá_xay",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "macchiato": {
+    "vi": "cà_phê_macchiato",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "latte": {
+    "vi": "cà_phê_sữa",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "cappuccino": {
+    "vi": "cà_phê_bọt_sữa",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "espresso": {
+    "vi": "cà_phê_đen_đậm",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "americano": {
+    "vi": "cà_phê_đen",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "mocha": {
+    "vi": "cà_phê_mocha",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "matcha": {
+    "vi": "trà_xanh",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "boba": {
+    "vi": "trân_châu",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "bubble": {
+    "vi": "trân_châu_(bubble_tea)",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "wine": {
+    "vi": "rượu_vang",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "beer": {
+    "vi": "bia",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "alcohol": {
+    "vi": "đồ_uống_có_cồn",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "liquor": {
+    "vi": "rượu_mạnh",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "cocktail": {
+    "vi": "cốc-tai",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "mocktail": {
+    "vi": "cốc-tai_không_cồn",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "rum": {
+    "vi": "rượu_rum",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "vodka": {
+    "vi": "rượu_vodka",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "gin": {
+    "vi": "rượu_gin",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "whiskey": {
+    "vi": "rượu_whiskey",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "champagne": {
+    "vi": "sâm_panh",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "cider": {
+    "vi": "nước_ép_lên_men",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "syrup": {
+    "vi": "si_rô",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "cream": {
+    "vi": "kem_tươi",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "foam": {
+    "vi": "lớp_bọt",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "shot": {
+    "vi": "ly_nhỏ",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "pint": {
+    "vi": "ly_lớn_(bia)",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "mug": {
+    "vi": "cốc_có_quai",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "glass": {
+    "vi": "ly_thủy_tinh",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "cup": {
+    "vi": "tách/cốc",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "bottle": {
+    "vi": "chai",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "can": {
+    "vi": "lon",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "straw": {
+    "vi": "ống_hút",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "sip": {
+    "vi": "ngụm",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "gulp": {
+    "vi": "uống_ực",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "pour": {
+    "vi": "rót",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "brew": {
+    "vi": "pha/ủ",
+    "domain": "food",
+    "type": "beverage"
+  },
+  "tasty": {
+    "vi": "ngon",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "delicious": {
+    "vi": "rất_ngon",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "yummy": {
+    "vi": "tuyệt_ngon",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "good": {
+    "vi": "tốt/ngon",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "great": {
+    "vi": "tuyệt_vời",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "excellent": {
+    "vi": "xuất_sắc",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "amazing": {
+    "vi": "đáng_kinh_ngạc",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "awesome": {
+    "vi": "tuyệt_đỉnh",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "perfect": {
+    "vi": "hoàn_hảo",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "nice": {
+    "vi": "tuyệt",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "bad": {
+    "vi": "tệ",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "terrible": {
+    "vi": "kinh_khủng",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "awful": {
+    "vi": "rất_tệ",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "horrible": {
+    "vi": "tồi_tệ",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "worst": {
+    "vi": "tệ_nhất",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "poor": {
+    "vi": "kém",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "fine": {
+    "vi": "tạm_ổn",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "okay": {
+    "vi": "bình_thường",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "spicy": {
+    "vi": "cay",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "sweet": {
+    "vi": "ngọt",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "sour": {
+    "vi": "chua",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "salty": {
+    "vi": "mặn",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "bitter": {
+    "vi": "đắng",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "savory": {
+    "vi": "đậm_đà",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "umami": {
+    "vi": "ngọt_thịt",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "bland": {
+    "vi": "nhạt_nhẽo",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "tasteless": {
+    "vi": "vô_vị",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "fresh": {
+    "vi": "tươi",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "raw": {
+    "vi": "sống",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "cooked": {
+    "vi": "chín",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "burnt": {
+    "vi": "khét",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "overcooked": {
+    "vi": "nấu_quá_chín",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "undercooked": {
+    "vi": "chưa_chín_tới",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "hot": {
+    "vi": "nóng",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "cold": {
+    "vi": "lạnh",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "warm": {
+    "vi": "ấm",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "cool": {
+    "vi": "mát",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "freezing": {
+    "vi": "đóng_băng",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "icy": {
+    "vi": "đá_lạnh",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "chill": {
+    "vi": "thư_giãn/lạnh",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "crispy": {
+    "vi": "giòn_rụm",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "crunchy": {
+    "vi": "giòn_tan",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "soft": {
+    "vi": "mềm",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "hard": {
+    "vi": "cứng",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "tough": {
+    "vi": "dai/cứng",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "tender": {
+    "vi": "mềm_nhừ",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "juicy": {
+    "vi": "mọng_nước",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "dry": {
+    "vi": "khô",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "wet": {
+    "vi": "ướt",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "greasy": {
+    "vi": "nhiều_dầu_mỡ",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "oily": {
+    "vi": "nhiều_dầu",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "rich": {
+    "vi": "béo_ngậy",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "creamy": {
+    "vi": "mịn_như_kem",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "heavy": {
+    "vi": "nặng_bụng",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "light": {
+    "vi": "nhẹ_nhàng",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "healthy": {
+    "vi": "lành_mạnh",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "unhealthy": {
+    "vi": "không_lành_mạnh",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "diet": {
+    "vi": "ăn_kiêng",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "vegan": {
+    "vi": "thuần_chay",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "vegetarian": {
+    "vi": "ăn_chay",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "halal": {
+    "vi": "chuẩn_halal",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "organic": {
+    "vi": "hữu_cơ",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "natural": {
+    "vi": "tự_nhiên",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "fake": {
+    "vi": "giả_tạo",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "real": {
+    "vi": "thật",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "pure": {
+    "vi": "nguyên_chất",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "artificial": {
+    "vi": "nhân_tạo",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "flavor": {
+    "vi": "hương_vị",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "smell": {
+    "vi": "mùi",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "aroma": {
+    "vi": "hương_thơm",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "fragrant": {
+    "vi": "thơm",
+    "domain": "sentiment",
+    "polarity": "positive"
+  },
+  "stinky": {
+    "vi": "bốc_mùi",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "smelly": {
+    "vi": "hôi",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "disgusting": {
+    "vi": "kinh_tởm",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "plain": {
+    "vi": "nhạt/nguyên_bản",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "mild": {
+    "vi": "nhẹ",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "extreme": {
+    "vi": "cực_độ",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "stale": {
+    "vi": "ôi_thiu/cũ",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "rotten": {
+    "vi": "thối_rữa",
+    "domain": "sentiment",
+    "polarity": "negative"
+  },
+  "chewy": {
+    "vi": "dai_dai",
+    "domain": "sentiment",
+    "polarity": "neutral"
+  },
+  "restaurant": {
+    "vi": "nhà_hàng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "cafe": {
+    "vi": "quán_cà_phê",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "bar": {
+    "vi": "quán_bar",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "pub": {
+    "vi": "quán_rượu",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "club": {
+    "vi": "câu_lạc_bộ",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "bistro": {
+    "vi": "quán_ăn_nhỏ",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "buffet": {
+    "vi": "tiệc_đứng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "food-court": {
+    "vi": "khu_ẩm_thực",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "stall": {
+    "vi": "quầy_hàng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "cart": {
+    "vi": "xe_đẩy",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "truck": {
+    "vi": "xe_bán_tải",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "vendor": {
+    "vi": "người_bán_hàng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "bakery": {
+    "vi": "tiệm_bánh",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "shop": {
+    "vi": "cửa_hàng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "store": {
+    "vi": "cửa_tiệm",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "market": {
+    "vi": "chợ",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "supermarket": {
+    "vi": "siêu_thị",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "grocery": {
+    "vi": "tạp_hóa",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "deli": {
+    "vi": "cửa_hàng_đồ_hộp",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "kitchen": {
+    "vi": "nhà_bếp",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "dining-room": {
+    "vi": "phòng_ăn",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "patio": {
+    "vi": "khoảng_sân",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "terrace": {
+    "vi": "sân_thượng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "rooftop": {
+    "vi": "tầng_thượng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "indoor": {
+    "vi": "trong_nhà",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "outdoor": {
+    "vi": "ngoài_trời",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "view": {
+    "vi": "cảnh_quan",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "decor": {
+    "vi": "trang_trí",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "atmosphere": {
+    "vi": "bầu_không_khí",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "vibe": {
+    "vi": "cảm_giác",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "ambient": {
+    "vi": "không_gian",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "cozy": {
+    "vi": "ấm_cúng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "fancy": {
+    "vi": "sang_trọng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "cheap": {
+    "vi": "rẻ",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "expensive": {
+    "vi": "đắt",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "luxury": {
+    "vi": "xa_xỉ",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "casual": {
+    "vi": "bình_dân",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "formal": {
+    "vi": "trang_trọng",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "local": {
+    "vi": "địa_phương",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "street": {
+    "vi": "đường_phố",
+    "domain": "restaurant",
+    "type": "space"
+  },
+  "eat": {
+    "vi": "ăn",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "drink": {
+    "vi": "uống",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "bite": {
+    "vi": "cắn",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "chew": {
+    "vi": "nhai",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "swallow": {
+    "vi": "nuốt",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "taste": {
+    "vi": "nếm",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "cook": {
+    "vi": "nấu",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "bake": {
+    "vi": "nướng_bánh",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "boil": {
+    "vi": "luộc",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "steam": {
+    "vi": "hấp",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "saute": {
+    "vi": "áp_chảo",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "microwave": {
+    "vi": "quay_vi_sóng",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "heat": {
+    "vi": "hâm_nóng",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "devour": {
+    "vi": "ăn_ngấu_nghiến",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "freeze": {
+    "vi": "đông_lạnh",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "thaw": {
+    "vi": "rã_đông",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "mix": {
+    "vi": "trộn",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "stir": {
+    "vi": "khuấy",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "blend": {
+    "vi": "xay",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "cut": {
+    "vi": "cắt",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "chop": {
+    "vi": "băm",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "dice": {
+    "vi": "thái_lựu",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "peel": {
+    "vi": "gọt_vỏ",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "mash": {
+    "vi": "nghiền",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "squeeze": {
+    "vi": "vắt",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "add": {
+    "vi": "thêm_vào",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "remove": {
+    "vi": "loại_bỏ",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "serve": {
+    "vi": "phục_vụ",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "share": {
+    "vi": "chia_sẻ",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "split": {
+    "vi": "chia_tiền",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "pay": {
+    "vi": "thanh_toán",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "scan": {
+    "vi": "quét_(mã)",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "swipe": {
+    "vi": "quẹt_(thẻ)",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "tap": {
+    "vi": "chạm",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "sign": {
+    "vi": "ký_tên",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "greet": {
+    "vi": "chào_đón",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "welcome": {
+    "vi": "hoan_nghênh",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "leave": {
+    "vi": "rời_đi",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "return": {
+    "vi": "trả_lại",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "complain": {
+    "vi": "phàn_nàn",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "refund": {
+    "vi": "hoàn_tiền",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "exchange": {
+    "vi": "đổi_trả",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "marinate": {
+    "vi": "ướp",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "season": {
+    "vi": "nêm_nếm",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "garnish": {
+    "vi": "trang_trí",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "whisk": {
+    "vi": "đánh_(trứng)",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "knead": {
+    "vi": "nhào_(bột)",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "simmer": {
+    "vi": "ninh",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "stew": {
+    "vi": "hầm",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "braise": {
+    "vi": "om",
+    "domain": "restaurant",
+    "type": "action"
+  },
+  "spoon": {
+    "vi": "cái_muỗng",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "fork": {
+    "vi": "cái_nĩa",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "knife": {
+    "vi": "con_dao",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "chopstick": {
+    "vi": "đôi_đũa",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "saucer": {
+    "vi": "đĩa_đựng_ly",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "dish": {
+    "vi": "đĩa_thức_ăn",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "pan": {
+    "vi": "cái_chảo",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "pot": {
+    "vi": "cái_nồi",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "tray": {
+    "vi": "cái_khay",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "napkin": {
+    "vi": "khăn_ăn",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "tissue": {
+    "vi": "giấy_ăn",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "towel": {
+    "vi": "khăn_tay",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "toothpick": {
+    "vi": "tăm",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "board": {
+    "vi": "bảng",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "chair": {
+    "vi": "ghế",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "booth": {
+    "vi": "buồng_ngồi",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "counter": {
+    "vi": "quầy",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "register": {
+    "vi": "máy_tính_tiền",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "till": {
+    "vi": "ngăn_đựng_tiền",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "bin": {
+    "vi": "thùng",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "trash": {
+    "vi": "thùng_rác",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "pitcher": {
+    "vi": "bình_nước",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "jug": {
+    "vi": "cái_bình",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "kettle": {
+    "vi": "ấm_đun_nước",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "spatula": {
+    "vi": "cái_thìa_xới",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "tongs": {
+    "vi": "kẹp_gắp",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "ladle": {
+    "vi": "muôi_múc_canh",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "whisk_tool": {
+    "vi": "cây_đánh_trứng",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "grater": {
+    "vi": "bàn_bào",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "strainer": {
+    "vi": "cái_rây",
+    "domain": "restaurant",
+    "type": "tool"
+  },
+  "salt": {
+    "vi": "muối",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "sugar": {
+    "vi": "đường",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "ginger": {
+    "vi": "gừng",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "sauce": {
+    "vi": "nước_sốt",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "soy-sauce": {
+    "vi": "nước_tương",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "fish-sauce": {
+    "vi": "nước_mắm",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "ketchup": {
+    "vi": "tương_cà",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "mayo": {
+    "vi": "sốt_mayonnaise",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "mustard": {
+    "vi": "mù_tạt",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "vinegar": {
+    "vi": "giấm",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "oil": {
+    "vi": "dầu_ăn",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "olive-oil": {
+    "vi": "dầu_ô_liu",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "flour": {
+    "vi": "bột_mì",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "dough": {
+    "vi": "cục_bột_nhào",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "yeast": {
+    "vi": "men_nở",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "baking-powder": {
+    "vi": "bột_nở",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "vanilla": {
+    "vi": "vani",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "cinnamon": {
+    "vi": "quế",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "nutmeg": {
+    "vi": "nhục_đậu_khấu",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "herb": {
+    "vi": "thảo_mộc",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "mint": {
+    "vi": "bạc_hà",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "basil": {
+    "vi": "húng_quế",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "parsley": {
+    "vi": "ngò_tây",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "cilantro": {
+    "vi": "ngò_rí",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "rosemary": {
+    "vi": "hương_thảo",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "thyme": {
+    "vi": "cỏ_xạ_hương",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "oregano": {
+    "vi": "kinh_giới_ngọt",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "spice": {
+    "vi": "gia_vị",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "msg": {
+    "vi": "bột_ngọt",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "stock": {
+    "vi": "nước_dùng",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "broth": {
+    "vi": "nước_hầm_xương",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "soup-base": {
+    "vi": "cốt_súp",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "veg": {
+    "vi": "rau",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "seed": {
+    "vi": "hạt_giống",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "grain": {
+    "vi": "ngũ_cốc",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "lentil": {
+    "vi": "đậu_lăng",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "seaweed": {
+    "vi": "rong_biển",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "pickle": {
+    "vi": "đồ_chua",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "sesame": {
+    "vi": "mè",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "wasabi": {
+    "vi": "mù_tạt_xanh",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "curry-powder": {
+    "vi": "bột_cà_ri",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "paprika": {
+    "vi": "ớt_bột",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "chili-sauce": {
+    "vi": "tương_ớt",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "oyster-sauce": {
+    "vi": "dầu_hào",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "hoisin": {
+    "vi": "tương_đen",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "peanut-butter": {
+    "vi": "bơ_đậu_phộng",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "condensed-milk": {
+    "vi": "sữa_đặc",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "coconut-milk": {
+    "vi": "nước_cốt_dừa",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "broccoli": {
+    "vi": "bông_cải_xanh",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "cauliflower": {
+    "vi": "bông_cải_trắng",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "spinach": {
+    "vi": "cải_bó_xôi",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "zucchini": {
+    "vi": "bí_ngòi",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "eggplant": {
+    "vi": "cà_tím",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "pumpkin": {
+    "vi": "bí_đỏ",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "sweet-potato": {
+    "vi": "khoai_lang",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "radish": {
+    "vi": "củ_cải",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "celery": {
+    "vi": "cần_tây",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "leek": {
+    "vi": "tỏi_tây",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "asparagus": {
+    "vi": "măng_tây",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "artichoke": {
+    "vi": "atisô",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "kale": {
+    "vi": "cải_xoăn",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "grapefruit": {
+    "vi": "bưởi",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "papaya": {
+    "vi": "đu_đủ",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "kiwi": {
+    "vi": "kiwi",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "pomegranate": {
+    "vi": "lựu",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "plum": {
+    "vi": "mận",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "pear": {
+    "vi": "lê",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "fig": {
+    "vi": "sung",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "date": {
+    "vi": "chà_là",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "raisin": {
+    "vi": "nho_khô",
+    "domain": "food",
+    "type": "ingredient"
+  },
+  "food": {
+    "vi": "thức_ăn",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "meal": {
+    "vi": "bữa_ăn",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "breakfast": {
+    "vi": "bữa_sáng",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "lunch": {
+    "vi": "bữa_trưa",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "dinner": {
+    "vi": "bữa_tối",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "supper": {
+    "vi": "bữa_khuya",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "brunch": {
+    "vi": "bữa_nửa_buổi",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "recipe": {
+    "vi": "công_thức",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "serving": {
+    "vi": "khẩu_phần_phục_vụ",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "calorie": {
+    "vi": "calo",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "fat": {
+    "vi": "chất_béo",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "protein": {
+    "vi": "chất_đạm",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "carb": {
+    "vi": "tinh_bột",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "vitamin": {
+    "vi": "vitamin",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "allergy": {
+    "vi": "dị_ứng",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "gluten": {
+    "vi": "chất_gluten",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "nut-free": {
+    "vi": "không_hạt",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "dairy-free": {
+    "vi": "không_sữa",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "sugar-free": {
+    "vi": "không_đường",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "signature": {
+    "vi": "món_đặc_trưng",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "special": {
+    "vi": "đặc_biệt",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "today": {
+    "vi": "hôm_nay",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "daily": {
+    "vi": "hằng_ngày",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "secret": {
+    "vi": "bí_mật",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "choice": {
+    "vi": "sự_lựa_chọn",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "option": {
+    "vi": "tùy_chọn",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "ingredient-list": {
+    "vi": "danh_sách_nguyên_liệu",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "dietary": {
+    "vi": "chế_độ_ăn",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "nutrition": {
+    "vi": "dinh_dưỡng",
+    "domain": "restaurant",
+    "type": "general"
+  },
+  "appetizer": {
+    "vi": "món_khai_vị",
+    "domain": "restaurant",
+    "type": "general"
+  }
+}

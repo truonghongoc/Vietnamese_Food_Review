@@ -1,0 +1,974 @@
+{
+  ":-)": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  ":)": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  ":-]": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  ":]": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  ":->": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  ":>": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  "8-)": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  "8)": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  "=)": {
+    "vi": "hài_lòng",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  ":-D": {
+    "vi": "ngon_tuyệt_vời",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "laugh"
+  },
+  ":D": {
+    "vi": "ngon_tuyệt_vời",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "laugh"
+  },
+  "8-D": {
+    "vi": "ngon_tuyệt_vời",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "laugh"
+  },
+  "8D": {
+    "vi": "ngon_tuyệt_vời",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "laugh"
+  },
+  "=D": {
+    "vi": "ngon_tuyệt_vời",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "laugh"
+  },
+  "C:": {
+    "vi": "ngon_tuyệt_vời",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "laugh"
+  },
+  "x-D": {
+    "vi": "quá_đã",
+    "label": "positive",
+    "intensity": 0.9,
+    "type": "laugh"
+  },
+  "xD": {
+    "vi": "quá_đã",
+    "label": "positive",
+    "intensity": 0.9,
+    "type": "laugh"
+  },
+  "X-D": {
+    "vi": "quá_đã",
+    "label": "positive",
+    "intensity": 0.9,
+    "type": "laugh"
+  },
+  "XD": {
+    "vi": "quá_đã",
+    "label": "positive",
+    "intensity": 0.9,
+    "type": "laugh"
+  },
+  ":-))": {
+    "vi": "vui_sướng",
+    "label": "positive",
+    "intensity": 0.75,
+    "type": "laugh"
+  },
+  ":))": {
+    "vi": "vui_sướng",
+    "label": "positive",
+    "intensity": 0.75,
+    "type": "laugh"
+  },
+  ":-(": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":(": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":-c": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":c": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":-<": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":<": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":-[": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":[": {
+    "vi": "thất_vọng",
+    "label": "negative",
+    "intensity": -0.65,
+    "type": "sad"
+  },
+  ":'-(": {
+    "vi": "rất_thất_vọng",
+    "label": "negative",
+    "intensity": -0.9,
+    "type": "crying"
+  },
+  ":'(": {
+    "vi": "rất_thất_vọng",
+    "label": "negative",
+    "intensity": -0.9,
+    "type": "crying"
+  },
+  ":=(": {
+    "vi": "rất_thất_vọng",
+    "label": "negative",
+    "intensity": -0.9,
+    "type": "crying"
+  },
+  ":'-)": {
+    "vi": "xúc_động_vì_ngon",
+    "label": "positive",
+    "intensity": 0.7,
+    "type": "laugh_cry"
+  },
+  ":')": {
+    "vi": "xúc_động_vì_ngon",
+    "label": "positive",
+    "intensity": 0.7,
+    "type": "laugh_cry"
+  },
+  ":\"D": {
+    "vi": "xúc_động_vì_ngon",
+    "label": "positive",
+    "intensity": 0.7,
+    "type": "laugh_cry"
+  },
+  ">:(": {
+    "vi": "tức_giận",
+    "label": "negative",
+    "intensity": -0.8,
+    "type": "angry"
+  },
+  ">:[": {
+    "vi": "tức_giận",
+    "label": "negative",
+    "intensity": -0.8,
+    "type": "angry"
+  },
+  "D:": {
+    "vi": "kinh_hãi",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "horror"
+  },
+  "D8": {
+    "vi": "kinh_hãi",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "horror"
+  },
+  "DX": {
+    "vi": "kinh_hãi",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "horror"
+  },
+  ":-O": {
+    "vi": "ngạc_nhiên",
+    "label": "neutral",
+    "intensity": 0.15,
+    "type": "surprise"
+  },
+  ":O": {
+    "vi": "ngạc_nhiên",
+    "label": "neutral",
+    "intensity": 0.15,
+    "type": "surprise"
+  },
+  ":-o": {
+    "vi": "ngạc_nhiên",
+    "label": "neutral",
+    "intensity": 0.15,
+    "type": "surprise"
+  },
+  ":o": {
+    "vi": "ngạc_nhiên",
+    "label": "neutral",
+    "intensity": 0.15,
+    "type": "surprise"
+  },
+  "8-0": {
+    "vi": "ngạc_nhiên",
+    "label": "neutral",
+    "intensity": 0.15,
+    "type": "surprise"
+  },
+  "=O": {
+    "vi": "ngạc_nhiên",
+    "label": "neutral",
+    "intensity": 0.15,
+    "type": "surprise"
+  },
+  ">:O": {
+    "vi": "ngạc_nhiên",
+    "label": "neutral",
+    "intensity": 0.15,
+    "type": "surprise"
+  },
+  ":-3": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "playful"
+  },
+  ":3": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "playful"
+  },
+  "=3": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "playful"
+  },
+  "x3": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "playful"
+  },
+  "X3": {
+    "vi": "dễ_thương",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "playful"
+  },
+  ">:3": {
+    "vi": "tinh_nghịch",
+    "label": "positive",
+    "intensity": 0.3,
+    "type": "mischievous"
+  },
+  ":-*": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "intensity": 0.7,
+    "type": "love"
+  },
+  ":*": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "intensity": 0.7,
+    "type": "love"
+  },
+  ":x": {
+    "vi": "yêu_thích",
+    "label": "positive",
+    "intensity": 0.7,
+    "type": "love"
+  },
+  ";-)": {
+    "vi": "gợi_ý_ngon",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  ";)": {
+    "vi": "gợi_ý_ngon",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  "*-)": {
+    "vi": "gợi_ý_ngon",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  "*)": {
+    "vi": "gợi_ý_ngon",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  ";-]": {
+    "vi": "gợi_ý_ngon",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  ";]": {
+    "vi": "gợi_ý_ngon",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  ";D": {
+    "vi": "gợi_ý_ngon",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  ":-P": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  ":P": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  "X-P": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  "XP": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  ":-p": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  ":p": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  ":-b": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  ":b": {
+    "vi": "trêu_đùa",
+    "label": "positive",
+    "intensity": 0.45,
+    "type": "playful"
+  },
+  ":-/": {
+    "vi": "nghi_ngờ",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "skeptical"
+  },
+  ":/": {
+    "vi": "nghi_ngờ",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "skeptical"
+  },
+  ">:\\": {
+    "vi": "nghi_ngờ",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "skeptical"
+  },
+  ":\\": {
+    "vi": "nghi_ngờ",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "skeptical"
+  },
+  "=/": {
+    "vi": "nghi_ngờ",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "skeptical"
+  },
+  ":L": {
+    "vi": "nghi_ngờ",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "skeptical"
+  },
+  ":-|": {
+    "vi": "bình_thường",
+    "label": "neutral",
+    "intensity": 0.0,
+    "type": "neutral"
+  },
+  ":|": {
+    "vi": "bình_thường",
+    "label": "neutral",
+    "intensity": 0.0,
+    "type": "neutral"
+  },
+  ":$": {
+    "vi": "ngại_ngùng",
+    "label": "negative",
+    "intensity": -0.3,
+    "type": "embarrassed"
+  },
+  ":-X": {
+    "vi": "giữ_bí_mật",
+    "label": "neutral",
+    "intensity": -0.15,
+    "type": "secretive"
+  },
+  ":X": {
+    "vi": "giữ_bí_mật",
+    "label": "neutral",
+    "intensity": -0.15,
+    "type": "secretive"
+  },
+  ":-#": {
+    "vi": "giữ_bí_mật",
+    "label": "neutral",
+    "intensity": -0.15,
+    "type": "secretive"
+  },
+  ":#": {
+    "vi": "giữ_bí_mật",
+    "label": "neutral",
+    "intensity": -0.15,
+    "type": "secretive"
+  },
+  "O:-)": {
+    "vi": "ngây_thơ",
+    "label": "positive",
+    "intensity": 0.4,
+    "type": "innocent"
+  },
+  "O:)": {
+    "vi": "ngây_thơ",
+    "label": "positive",
+    "intensity": 0.4,
+    "type": "innocent"
+  },
+  "0:-3": {
+    "vi": "ngây_thơ",
+    "label": "positive",
+    "intensity": 0.4,
+    "type": "innocent"
+  },
+  "0:3": {
+    "vi": "ngây_thơ",
+    "label": "positive",
+    "intensity": 0.4,
+    "type": "innocent"
+  },
+  ">:-)": {
+    "vi": "tinh_quái",
+    "label": "negative",
+    "intensity": -0.55,
+    "type": "evil"
+  },
+  ">:)": {
+    "vi": "tinh_quái",
+    "label": "negative",
+    "intensity": -0.55,
+    "type": "evil"
+  },
+  "}:-)": {
+    "vi": "tinh_quái",
+    "label": "negative",
+    "intensity": -0.55,
+    "type": "evil"
+  },
+  "}:)": {
+    "vi": "tinh_quái",
+    "label": "negative",
+    "intensity": -0.55,
+    "type": "evil"
+  },
+  "3:-)": {
+    "vi": "tinh_quái",
+    "label": "negative",
+    "intensity": -0.55,
+    "type": "evil"
+  },
+  "|;-)": {
+    "vi": "ngầu",
+    "label": "positive",
+    "intensity": 0.3,
+    "type": "cool"
+  },
+  "|-O": {
+    "vi": "chán",
+    "label": "neutral",
+    "intensity": -0.15,
+    "type": "bored"
+  },
+  "B-)": {
+    "vi": "tự_tin",
+    "label": "positive",
+    "intensity": 0.4,
+    "type": "cool"
+  },
+  "%-)": {
+    "vi": "say_xỉn",
+    "label": "negative",
+    "intensity": -0.35,
+    "type": "confused"
+  },
+  "%)": {
+    "vi": "say_xỉn",
+    "label": "negative",
+    "intensity": -0.35,
+    "type": "confused"
+  },
+  ":-###..": {
+    "vi": "buồn_nôn",
+    "label": "negative",
+    "intensity": -0.7,
+    "type": "sick"
+  },
+  ":###..": {
+    "vi": "buồn_nôn",
+    "label": "negative",
+    "intensity": -0.7,
+    "type": "sick"
+  },
+  ":E": {
+    "vi": "nhăn_mặt",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "nervous"
+  },
+  "o/": {
+    "vi": "chào_hỏi",
+    "label": "positive",
+    "intensity": 0.3,
+    "type": "greeting"
+  },
+  "\\o": {
+    "vi": "chào_hỏi",
+    "label": "positive",
+    "intensity": 0.3,
+    "type": "greeting"
+  },
+  "\\o/": {
+    "vi": "ăn_mừng",
+    "label": "positive",
+    "intensity": 0.8,
+    "type": "excited"
+  },
+  "o7": {
+    "vi": "trân_trọng",
+    "label": "neutral",
+    "intensity": 0.2,
+    "type": "respectful"
+  },
+  "v.v": {
+    "vi": "chán_nản",
+    "label": "negative",
+    "intensity": -0.5,
+    "type": "sad"
+  },
+  "._.": {
+    "vi": "chán_nản",
+    "label": "negative",
+    "intensity": -0.5,
+    "type": "sad"
+  },
+  ";-;": {
+    "vi": "đau_khổ",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "crying"
+  },
+  "T_T": {
+    "vi": "đau_khổ",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "crying"
+  },
+  "T-T": {
+    "vi": "đau_khổ",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "crying"
+  },
+  "QQ": {
+    "vi": "đau_khổ",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "crying"
+  },
+  "X_X": {
+    "vi": "choáng_váng",
+    "label": "negative",
+    "intensity": -0.6,
+    "type": "fainted"
+  },
+  "x_x": {
+    "vi": "choáng_váng",
+    "label": "negative",
+    "intensity": -0.6,
+    "type": "fainted"
+  },
+  "+_+": {
+    "vi": "choáng_váng",
+    "label": "negative",
+    "intensity": -0.6,
+    "type": "fainted"
+  },
+  "<_<": {
+    "vi": "láu_cá",
+    "label": "negative",
+    "intensity": -0.2,
+    "type": "devious"
+  },
+  ">_>": {
+    "vi": "láu_cá",
+    "label": "negative",
+    "intensity": -0.2,
+    "type": "devious"
+  },
+  "O_O": {
+    "vi": "bất_ngờ",
+    "label": "neutral",
+    "intensity": 0.25,
+    "type": "surprise"
+  },
+  "o_o": {
+    "vi": "bất_ngờ",
+    "label": "neutral",
+    "intensity": 0.25,
+    "type": "surprise"
+  },
+  "O-O": {
+    "vi": "bất_ngờ",
+    "label": "neutral",
+    "intensity": 0.25,
+    "type": "surprise"
+  },
+  ">.<": {
+    "vi": "khó_chịu",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "uneasy"
+  },
+  ">_<": {
+    "vi": "khó_chịu",
+    "label": "negative",
+    "intensity": -0.4,
+    "type": "uneasy"
+  },
+  "^5": {
+    "vi": "khen_ngợi",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "celebration"
+  },
+  "<3": {
+    "vi": "mê_mẩn",
+    "label": "positive",
+    "intensity": 0.8,
+    "type": "love"
+  },
+  "</3": {
+    "vi": "đau_lòng",
+    "label": "negative",
+    "intensity": -0.8,
+    "type": "heartbroken"
+  },
+  "(>_<)": {
+    "vi": "bối_rối",
+    "label": "negative",
+    "intensity": -0.5,
+    "type": "troubled"
+  },
+  "(^^ゞ": {
+    "vi": "ngượng_ngùng",
+    "label": "negative",
+    "intensity": -0.3,
+    "type": "nervous"
+  },
+  "(-_-)zzz": {
+    "vi": "buồn_ngủ",
+    "label": "neutral",
+    "intensity": -0.1,
+    "type": "sleepy"
+  },
+  "(^_-)": {
+    "vi": "đá_lông_nheo",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "wink"
+  },
+  "\\(^o^)/": {
+    "vi": "phấn_khích",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "excited"
+  },
+  "(@_@)": {
+    "vi": "kinh_ngạc",
+    "label": "neutral",
+    "intensity": 0.2,
+    "type": "amazed"
+  },
+  "(╯°□°)╯︵┻━┻": {
+    "vi": "tức_điên",
+    "label": "negative",
+    "intensity": -0.6,
+    "type": "rage"
+  },
+  "ヽ(´ー`)ノ": {
+    "vi": "thư_thái",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "calm"
+  },
+  "(´∀`)": {
+    "vi": "thoải_mái",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "carefree"
+  },
+  "Σ(゜д゜;)": {
+    "vi": "giật_mình",
+    "label": "negative",
+    "intensity": -0.3,
+    "type": "shocked"
+  },
+  "¯\\_(ツ)_/¯": {
+    "vi": "thờ_ơ",
+    "label": "neutral",
+    "intensity": 0.0,
+    "type": "shrug"
+  },
+  "( ͡° ͜ʖ ͡°)": {
+    "vi": "tự_mãn",
+    "label": "positive",
+    "intensity": 0.25,
+    "type": "smug"
+  },
+  "ಠ_ಠ": {
+    "vi": "không_hài_lòng",
+    "label": "negative",
+    "intensity": -0.5,
+    "type": "disapproval"
+  },
+  "^_^": {
+    "vi": "vui_vẻ",
+    "label": "positive",
+    "intensity": 0.6,
+    "type": "happy"
+  },
+  "orz": {
+    "vi": "tuyệt_vọng",
+    "label": "negative",
+    "intensity": -0.6,
+    "type": "despair"
+  },
+  "uwu": {
+    "vi": "đáng_yêu",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "cute"
+  },
+  "UwU": {
+    "vi": "đáng_yêu",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "cute"
+  },
+  "(´；ω；`)": {
+    "vi": "buồn_bã",
+    "label": "negative",
+    "intensity": -0.8,
+    "type": "crying"
+  },
+  "(｀･ω･´)": {
+    "vi": "hớn_hở",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "perky"
+  },
+  "(・∀・)": {
+    "vi": "châm_biếm",
+    "label": "positive",
+    "intensity": 0.3,
+    "type": "mocking"
+  },
+  ":((": {
+    "vi": "thất_vọng_tràn_trề",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "crying"
+  },
+  ":v": {
+    "vi": "đùa_vui",
+    "label": "positive",
+    "intensity": 0.4,
+    "type": "joking"
+  },
+  "^^": {
+    "vi": "vui",
+    "label": "positive",
+    "intensity": 0.5,
+    "type": "happy"
+  },
+  ":9": {
+    "vi": "ngon",
+    "label": "positive",
+    "intensity": 0.55,
+    "type": "yummy"
+  },
+  ":-9": {
+    "vi": "ngon",
+    "label": "positive",
+    "intensity": 0.55,
+    "type": "yummy"
+  },
+  "(っˆڡˆς)": {
+    "vi": "quá_ngon",
+    "label": "positive",
+    "intensity": 0.7,
+    "type": "yummy"
+  },
+  "@@": {
+    "vi": "choáng_ngợp",
+    "label": "neutral",
+    "intensity": -0.1,
+    "type": "dizzy"
+  },
+  "@ @": {
+    "vi": "choáng_ngợp",
+    "label": "neutral",
+    "intensity": -0.1,
+    "type": "dizzy"
+  },
+  "-_-": {
+    "vi": "ngán_ngẩm",
+    "label": "negative",
+    "intensity": -0.3,
+    "type": "unamused"
+  },
+  "-.-": {
+    "vi": "mệt_mỏi",
+    "label": "negative",
+    "intensity": -0.25,
+    "type": "tired"
+  },
+  "=))": {
+    "vi": "cười_ngặt_nghẽo",
+    "label": "positive",
+    "intensity": 0.85,
+    "type": "laugh"
+  },
+  ":\">": {
+    "vi": "mắc_cỡ",
+    "label": "positive",
+    "intensity": 0.3,
+    "type": "shy"
+  },
+  "^^\"": {
+    "vi": "cười_trừ",
+    "label": "neutral",
+    "intensity": 0.05,
+    "type": "awkward"
+  },
+  "?_?": {
+    "vi": "khó_hiểu",
+    "label": "neutral",
+    "intensity": 0.0,
+    "type": "confused"
+  },
+  "^o^": {
+    "vi": "sung_sướng",
+    "label": "positive",
+    "intensity": 0.75,
+    "type": "excited"
+  },
+  "o.O": {
+    "vi": "ngơ_ngác",
+    "label": "neutral",
+    "intensity": 0.1,
+    "type": "confused"
+  },
+  "):": {
+    "vi": "buồn_bực",
+    "label": "negative",
+    "intensity": -0.55,
+    "type": "sad"
+  },
+  "T^T": {
+    "vi": "khóc_nức_nở",
+    "label": "negative",
+    "intensity": -0.85,
+    "type": "crying"
+  }
+}
