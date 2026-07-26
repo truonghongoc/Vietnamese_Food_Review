@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "total_reviews": 10206,
+    "successful_reviews": 10200,
+    "empty_reviews_skipped": 6,
+    "failed_reviews": 0,
+    "duplicate_reviews": 5074,
+    "raw_characters_mean": 380.70382352941175,
+    "raw_words_mean": 87.7513725490196,
+    "processed_words_mean": 84.56705882352941
+  },
+  "prediction": {
+    "total_detected_aspects": 28730,
+    "reviews_with_aspects": 9320,
+    "reviews_without_aspects": 886,
+    "no_aspect_rate": 0.086811679404272,
+    "aspects_per_review_mean": 2.815010777973741,
+    "aspects_per_review_median": 2.0,
+    "aspects_per_review_std": 2.0134454075665604,
+    "aspects_per_review_max": 11
+  },
+  "confidence": {
+    "low_confidence_threshold": 0.6,
+    "presence_mean": 0.8047281258376143,
+    "polarity_mean": 0.848145341006592,
+    "decision_mean": 0.7275494391122383,
+    "joint_proxy_mean": 0.685894809410093,
+    "threshold_margin_mean": 0.12243271541993792,
+    "low_confidence_rate": 0.1900800556909154,
+    "presence_quantiles": {
+      "min": 0.05778699368238449,
+      "p10": 0.6236656308174133,
+      "p25": 0.719578742980957,
+      "median": 0.8226156830787659,
+      "p75": 0.9275372624397278,
+      "p90": 0.9675500988960266,
+      "max": 0.9905194044113159
+    },
+    "polarity_quantiles": {
+      "min": 0.0003941036993637681,
+      "p10": 0.5266615152359009,
+      "p25": 0.796977698802948,
+      "median": 0.9719157814979553,
+      "p75": 0.9934388697147369,
+      "p90": 0.9964164853096008,
+      "max": 0.9995017051696777
+    },
+    "decision_quantiles": {
+      "min": 0.0003941036993637681,
+      "p10": 0.4829448848962784,
+      "p25": 0.6393457651138306,
+      "median": 0.7699849009513855,
+      "p75": 0.8824694007635117,
+      "p90": 0.9571908950805664,
+      "max": 0.9886766672134399
+    }
+  },
+  "postprocessing": {
+    "polarity_override_rate": 0.2840584754611904,
+    "aspect_rescue_rate": 0.06042464323007309,
+    "sarcasm_warning_count": 856,
+    "sarcasm_warning_rate": 0.08387223202038017
+  },
+  "performance": {
+    "elapsed_seconds": 97.9536001000015,
+    "reviews_per_second": 104.13093535701343
+  },
+  "input": {
+    "dataset_path": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\raw\\vsa_food_rv_test.csv",
+    "text_column": "Comment",
+    "dataset_rows": 10206
+  },
+  "model": {
+    "checkpoint": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\models\\saved_models\\best_model",
+    "aspects": [
+      "AMBIENCE#GENERAL",
+      "DRINKS#PRICES",
+      "DRINKS#QUALITY",
+      "DRINKS#STYLE&OPTIONS",
+      "FOOD#PRICES",
+      "FOOD#QUALITY",
+      "FOOD#STYLE&OPTIONS",
+      "LOCATION#GENERAL",
+      "RESTAURANT#GENERAL",
+      "RESTAURANT#MISCELLANEOUS",
+      "RESTAURANT#PRICES",
+      "SERVICE#GENERAL"
+    ],
+    "polarities": [
+      "none",
+      "positive",
+      "negative",
+      "neutral"
+    ],
+    "batch_size": 32,
+    "max_len": null,
+    "strict_filter": true,
+    "precision_mode": true
+  },
+  "saved_files": {
+    "review_predictions_csv": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\processed\\vsa_food_rv_test_review_predictions.csv",
+    "aspect_predictions_csv": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\processed\\vsa_food_rv_test_aspect_predictions.csv",
+    "review_predictions_parquet": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\processed\\vsa_food_rv_test_review_predictions.parquet",
+    "aspect_predictions_parquet": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\processed\\vsa_food_rv_test_aspect_predictions.parquet",
+    "aspect_statistics": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_aspect_statistics.csv",
+    "polarity_statistics": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_polarity_statistics.csv",
+    "confidence_statistics": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_confidence_statistics.csv",
+    "low_confidence_predictions": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_low_confidence_predictions.csv",
+    "summary_json": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_summary.json",
+    "charts": [
+      "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_aspect_frequency.png",
+      "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_confidence_by_aspect.png",
+      "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_polarity_distribution.png",
+      "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_confidence_distribution.png",
+      "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_aspects_per_review.png"
+    ],
+    "html_report": "C:\\Users\\ADMIN\\Downloads\\Food_Review_NLP\\tests\\output\\vsa_food_rv_test_report.html"
+  }
+}
